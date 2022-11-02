@@ -493,8 +493,7 @@ footer .social ul li div{
 .btn-wallet:hover{ 
   color: #fff; 
 }
-.btn-execw{
-  width: 69px;
+.btn-execw{ 
   height: 38px; 
   font-size: 12px;
   line-height: 15px; 
@@ -518,6 +517,21 @@ footer .social ul li div{
   background-color: #9086FF; 
 
 }
+.menu-app-right{
+  position: absolute;
+  right: 0;
+  display: flex;
+} 
+.menu-app-right a{
+  margin-right: 10px;
+}
+.menu-app-right .dropdown{
+  margin-right: 10px;
+}
+
+
+
+
 
 /* transition: .33s all ease-out;  */
 
