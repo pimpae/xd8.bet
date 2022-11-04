@@ -459,6 +459,9 @@ footer .social ul li div{
   line-height: 17px;
   color: #fff;
 }
+.menu-mb ul li.active a{   
+  color: #FFD058;
+}
 .btn-wallet{
   min-width: 164px;
   height: 38px;  
@@ -531,7 +534,7 @@ footer .social ul li div{
 .banner-img img{
   object-fit: cover;
   width: 100%;
-  height: 321px; 
+  height: 300px; 
   border-radius: 10px;
 }
 .slot-tabs .nav { 
@@ -609,18 +612,106 @@ footer .social ul li div{
 }
 .slot-game a:hover .play{  
   display: block; 
-}
-
-
-
+} 
 .slot-game a:nth-child(5n) .slot{ 
   margin-right: 0px; 
 }
+
+.slot-tabs > .dropdown {
+  position: absolute;
+  right: 0;
+  top: 0; 
+  margin-right: 15px;
+}
+.slot-tabs > .dropdown.show i{
+  transform: rotate(180deg);
+  margin-top: 0px; 
+}
+.slot-tabs > .dropdown.show .btn-providers{ 
+  border-radius: 16.5px 16.5px 0px 0px;
+  background: #8B69FF;
+}
+.btn-providers{
+  font-family: Inter-SemiBold; 
+  border: 1px solid #8C79B0;
+  border-radius: 16.5px;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #D9CDFF;
+  width: 142px;
+  height: 34px;
+}
+.btn-providers + .dropdown-menu {
+  width: 142px !important; 
+  min-width: unset;
+  height: 126px;
+  overflow-y: scroll;  
+  background: #8B69FF;
+  border: 1px solid rgba(255, 255, 255, 0.31);
+  border-radius: 0px 0px 16.5px 16.5px ; 
+}
+
+.btn-providers + .dropdown-menu::-webkit-scrollbar {
+  width: 3px; 
+} 
+.btn-providers + .dropdown-menu::-webkit-scrollbar-track {
+  background: #C2B0FF; 
+} 
+.btn-providers + .dropdown-menu::-webkit-scrollbar-thumb {
+  background: #fff; 
+} 
+.btn-providers + .dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background: #fff; 
+}
+
+
+.btn-providers + .dropdown-menu .dropdown-item{ 
+  padding: 0px;
+  font-size: 10px;
+  line-height: 12px; 
+  font-family: Inter-SemiBold;
+  color: #E0D8FF; 
+  padding: 5px 15px;
+}
+.btn-providers + .dropdown-menu .dropdown-item:hover{  
+  color: #8B69FF;  
+}
+.btn-providers i{
+  float: right;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+.btn-providers:hover{ 
+  color: #fff; 
+}
+.online-slot{
+  padding-top: 30px;
+}
+.btn-view-more{
+  border: 1px solid #8B69FF;
+  border-radius: 16.5px;
+  font-size: 11px;
+  line-height: 13px; 
+  color: #FFFFFF;
+  margin-top: 25px;
+  font-family: Inter-SemiBold; 
+}
+.btn-view-more:hover{
+  border: 1px solid #8B69FF; 
+  color: #FFFFFF; 
+  background: #8B69FF;
+  transition: .33s all ease-out;
+}
+
+
+
+
 
 
 
 /* transition: .33s all ease-out;  */
 
+/* font-family: Inter-SemiBold;  */
 
 @media (min-width: 1200px){
   .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -707,6 +798,42 @@ footer .social ul li div{
   footer .ftop1 ul li a{
     white-space: nowrap;
     margin-right: 10px;
+  }
+  .banner-img img{
+    height: 168px; 
+  }
+  .slot-tabs .nav .nav-item {
+    width: 31.5%;
+    margin-right: 5px;
+  } 
+  .slot-tabs .nav .nav-item a {
+    font-size: 11px;
+    line-height: 16px;
+    width: 100%;
+    min-width: 100%;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  } 
+  .slot-game{ 
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 15px 10px;
+    position: relative; 
+  } 
+  .slot-game .slot { 
+    height: 138px; 
+  }
+  .slot-game .slot img{ 
+    height: 138px; 
+  }
+  .banner-img{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .slot-tabs{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 @media only screen and (width: 1024px) { /* MOBILE */
