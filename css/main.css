@@ -174,13 +174,13 @@ header nav .btn-call-center:hover{
   z-index: 2;
 } 
 .box-game1 .game-live{
-  width: 180px;
+  width: 175px;
   height: 200px;
   border-radius: 10px;
   position: relative; 
   background-position:  center top !important;
   background-repeat: no-repeat !important;
-  background-size: 180px 200px !important;
+  background-size: 175px 200px !important;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -236,7 +236,7 @@ header nav .btn-call-center:hover{
 .game-home h3{ 
   margin-top: 40px;
   margin-bottom: 20px;
-  padding-left: 25px;
+  padding-left: 20px;
   font-size: 16px;
   line-height: 19px; 
   font-family: Inter-Bold;
@@ -249,7 +249,7 @@ header nav .btn-call-center:hover{
   content: "";
   position: absolute;
   top: -10px;
-  left: 25px;
+  left: 20px;
   width: 32px;
   height: 3px;
   border-radius: 3px; 
@@ -311,7 +311,7 @@ header nav .btn-call-center:hover{
   right: 0;
   top: 0;
   text-align: center;
-  margin-right: 85px;
+  margin-right: 75px;
   width: 79px;
   height: 26px; 
   background: #524079;
@@ -528,21 +528,110 @@ footer .social ul li div{
 .menu-app-right .dropdown{
   margin-right: 10px;
 }
+.banner-img img{
+  object-fit: cover;
+  width: 100%;
+  height: 321px; 
+  border-radius: 10px;
+}
+.slot-tabs .nav { 
+  border-bottom: 0px;
+  margin-bottom: 20px;
+}
+.slot-tabs .nav .nav-item a{ 
+  margin-right: 10px;
+  min-width: 95px;
+  height: 34px; 
+  border: 1px solid #8C79B0;
+  border-radius: 16.5px;  
+  font-size: 12px;
+  line-height: 15px;   
+  font-family: Inter-SemiBold; 
+  color: #D9CDFF;
+  text-align: center;
+  transition: .33s all ease-out;
+}
+.slot-tabs .nav .nav-item a.active{ 
+  background-color: #8B69FF;
+  border: 1px solid #8C79B0;
+}
+.slot-tabs .nav .nav-item a:hover{ 
+  background-color: #8B69FF;
+  border: 1px solid #8C79B0;
+} 
+.slot-game{ 
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 20px 10px;
+  position: relative; 
+} 
+.slot-game .slot{
+  width: 100%;
+  height: 200px;   
+  object-fit: cover;
+  border-radius: 10px;
+  transition: .33s all ease-out;
+  position: relative;
+  z-index: 1;
+  transition: .33s all ease-out;
+}
+.slot-game img{
+  width: 100%;
+  height: 200px;   
+  object-fit: cover;
+  border-radius: 10px; 
+}
+.slot-game .slot:hover::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background: rgba(64, 49, 94, 0.63); 
+  z-index: 2;
+  border-radius: 10px; 
+}
+
+.slot-game .slot .play{ 
+  position: absolute;
+  z-index: 4; 
+  width: 40px;
+  height: 40px;
+  display: none;
+  border-radius: 100%; 
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  background: url(../images/PlayCircle.png) , #8460FF;
+  background-position:  center   !important;
+  background-repeat: no-repeat !important;
+  background-size: 22px 22px !important;
+}
+.slot-game a:hover .play{  
+  display: block; 
+}
 
 
+
+.slot-game a:nth-child(5n) .slot{ 
+  margin-right: 0px; 
+}
 
 
 
 /* transition: .33s all ease-out;  */
 
 
-
-
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 944px;
+  }
+}
 @media only screen and (max-width: 991px) { /* MOBILE */
   .box-game1 .game-live{
-    width: 100px;
-    height: 120px; 
-    background-size: 118px 138px !important; 
+    width: 110px;
+    height: 130px; 
+    background-size: 110px 130px !important; 
   }
   .bd-slide{
     padding: 20px;
@@ -569,6 +658,8 @@ footer .social ul li div{
     margin-top: 20px;
     border-radius: 10px;
     margin-bottom: -40px !important;
+    padding-left: 0px;
+    padding-right: 0px;
   }  
   .game-home {
     margin-top: 20px;
