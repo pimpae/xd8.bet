@@ -948,6 +948,100 @@ footer .social ul li div{
   color: #fff; 
   margin-top: 30px;
 } 
+.rank-box{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.rank-box .rank-m{
+  width: 248px;
+  height: 169px; 
+  border-radius: 10px; 
+  background: #493879;
+  border: 1px solid #493879; 
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+.rank-box .rank-m:nth-child(2){ 
+  margin-top: 25px; 
+  background: linear-gradient(#493879, #493879) padding-box,
+              linear-gradient(to right, #AD86FF, #FFD058) border-box;
+  border-radius: 10px;
+  border: 1px solid transparent;
+} 
+.rank-box .rank-m div{ 
+  height: 169px; 
+}
+.rank-box .rank-m div img{ 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 51px;
+}
+.rank-box .rank-m div h3{ 
+  font-family: Inter-SemiBold; 
+  font-size: 14px;
+  line-height: 17px; 
+  color: #B8ABDD;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.rank-box .rank-m div h4{ 
+  font-family: Inter-SemiBold; 
+  font-size: 14px;
+  line-height: 17px; 
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.rank-box .rank-m div h5{ 
+  font-family: Inter-SemiBold; 
+  font-size: 14px;
+  line-height: 17px; 
+  color: #FFD058;
+  margin-bottom: 10px;
+  margin-top: 0px;
+} 
+.tb-rank-list{ 
+  border-radius: 10px; 
+  background: #493879; 
+  padding: 25px 25px 1px; 
+  width: 656px;
+  display: block; 
+  margin: 40px auto;
+}
+.tb-rank-list .table thead th {
+  vertical-align: middle;
+  border-top: 0px solid #dee2e6 !important;
+  border-bottom: 1px solid #725E9D;
+  padding: 20px 0px; 
+}
+.tb-rank-list  .table td, .tb-rank-list  .table th { 
+  border-top: 0px solid #dee2e6;
+}
+.tb-rank-list .table thead th {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: Inter-SemiBold;  
+  color: #FFFFFF;
+}
+.tb-rank-list .table tbody td {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 25%;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #C0B6DB;
+  font-family: Inter-Regular; 
+  vertical-align: middle;
+}
 
 
 
@@ -962,6 +1056,46 @@ footer .social ul li div{
   }
 }
 @media only screen and (max-width: 991px) { /* MOBILE */
+  .tb-rank-list .table tbody td { 
+    font-size: 11px;
+    line-height: 13px; 
+    width: auto;
+  }
+  .tb-rank-list { 
+    padding: 0px 15px 1px; 
+    margin: 30px auto;
+  }
+  .tb-rank-list .table thead th {
+    font-size: 12px;
+    line-height: 15px; 
+  }
+  .rank-box .rank-m {
+    width: 33%;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 129px; 
+  }
+  .rank-box .rank-m div img{ 
+    width: 38px;
+    height: 38px;
+    margin-top: 30px;
+  }
+  .rank-box .rank-m div h3 { 
+    font-size: 9px;
+    line-height: 11px; 
+    margin-bottom: 5px;
+  }
+  .rank-box .rank-m div h4 { 
+    font-size: 9px;
+    line-height: 11px; 
+  }
+  .rank-box .rank-m div h5 { 
+    font-size: 9px;
+    line-height: 11px; 
+  }
+  .tb-rank-list{  
+    width: 100%; 
+  }
   .promotion-main ul.list-text li { 
     position: relative;
     font-size: 13px;
