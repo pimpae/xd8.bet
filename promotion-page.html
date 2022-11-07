@@ -333,7 +333,25 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script>
 
  
- 
+	<script>
+		$('.btn-sign').on( "click", function() {
+			$('.main-form .nav-tabs .nav-item .nav-link').removeClass('active');
+			$('.main-form .nav-tabs .nav-item .tab1s').addClass('active');  
+
+			$('.main-form .tab-pane').removeClass('active show');
+			$('.main-form #tab-signin').addClass('active show'); 
+			$('#signIn').modal('show');
+		});
+
+		$('.btn-join').on( "click", function() {
+			$('.main-form .nav-tabs .nav-item .nav-link').removeClass('active');
+			$('.main-form .nav-tabs .nav-item .tab2s').addClass('active');  
+			
+			$('.main-form .tab-pane').removeClass('active show');
+			$('.main-form #tab-join').addClass('active show'); 
+			$('#signIn').modal('show');
+		});
+	</script>
 
  
 </body>

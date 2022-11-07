@@ -245,6 +245,12 @@ header nav .btn-call-center:hover{
   margin-top: 10px;
   z-index: 11 !important;
 }
+.main-home .game-home h3{  
+  padding-left: 5px; 
+}
+.main-home .game-home h3::after{  
+  left: 5px; 
+}
 .game-home h3::after{ 
   content: "";
   position: absolute;
@@ -1042,6 +1048,137 @@ footer .social ul li div{
   font-family: Inter-Regular; 
   vertical-align: middle;
 }
+.modal-signin .modal-dialog{
+  width: 431px;
+  max-width: 431px;
+}
+.modal-signin .modal-dialog .modal-content{
+  background: #3D2774;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+.modal-signin .logo{
+  height: 44px; 
+  margin-top: 15px !important;
+}
+.modal-signin h2{ 
+  font-family: Inter-SemiBold; 
+  font-size: 20px;
+  line-height: 24px; 
+  color: #FFD058;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  text-align: center;
+} 
+.modal-signin .modal-body{
+  overflow: hidden;
+  padding: 0px;
+}
+.modal-signin .modal-body:after{
+  content: "";
+  position: absolute;
+  width: 166px;
+  height: 177px;
+  right: 50px;
+  top: 50px; 
+  background: linear-gradient(180deg, #875EEE 0%, #FF9FF5 100%);
+  filter: blur(85px);
+  z-index: 2;
+}
+.main-form{
+  position: relative;
+  background: linear-gradient(125.31deg, #3A2471 4.35%, #412E93 97.41%);
+  border-radius: 30px 30px 9px 9px;
+  padding: 20px 20px 30px;
+  z-index: 3;
+}
+.main-form .nav-tabs{ 
+  background: #7056C3;
+  border-radius: 29.5px;
+  width: 100%;
+  border-bottom: 0px solid #dee2e6;
+  height: 49px; 
+}
+.main-form .nav-tabs .nav-item {
+  width: 50%;
+  height: 49px; 
+}
+.main-form .nav-tabs .nav-item .nav-link{ 
+  background: #7056C3;
+  border-radius: 29.5px;
+  height: 49px; 
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 36px; 
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Inter-SemiBold; 
+}
+.main-form .nav-tabs .nav-item .nav-link.active{ 
+  background: #8460FF; 
+  border: none;
+}
+.main-form .nav-tabs .nav-item .nav-link:hover{ 
+  background: #8460FF; 
+  border: none;
+} 
+.main-form .tab-pane{ 
+  margin-top: 40px;
+}
+.main-form form label{ 
+  font-family: Inter-SemiBold; 
+  font-size: 14px;
+  line-height: 17px; 
+  color: #FFFFFF;
+}
+.main-form form input::placeholder{ 
+  font-family: Inter-SemiBold; 
+  font-size: 10px; 
+  color: #D9CDFF;  
+}
+.main-form form input{ 
+  height: 48px; 
+  background-color: #7056C3;
+  border-radius: 34.5px;
+  border: none; 
+  padding-left: 20px;
+  color: #fff;  
+  padding-top: 0px;
+}
+.main-form form input:focus{ 
+  background-color: #7056C3; 
+  color: #fff;  
+}
+.field-icon {
+  float: right;
+  margin-right: 18px;
+  margin-top: -31px;
+  position: relative;
+  z-index: 2;
+  color: #D9CDFF;
+  cursor: pointer;
+} 
+.main-form form .btn{ 
+  display: block;
+  width: 100%;
+  height: 48px; 
+  background: #8B69FF;
+  border-radius: 34.5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px; 
+  color: #FFFFFF;
+  font-family: Inter-Bold;  
+  transition: .33s all ease-out;
+}
+.main-form form .btn:hover{   
+  background: #7056C3; 
+  color: #FFFFFF; 
+}
+.main-form form .btn:active{   
+  background: #AA91FF; 
+  color: #FFFFFF; 
+}
 
 
 
@@ -1056,6 +1193,11 @@ footer .social ul li div{
   }
 }
 @media only screen and (max-width: 991px) { /* MOBILE */
+  
+  .modal-signin .modal-dialog{
+    width: auto;
+    max-width: 100%;
+  }
   .tb-rank-list .table tbody td { 
     font-size: 11px;
     line-height: 13px; 

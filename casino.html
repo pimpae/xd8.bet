@@ -887,6 +887,87 @@
 		</div>
 	</footer>
 
+	<div class="modal fade modal-signin" id="signIn">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content"> 
+				<div class="modal-body">
+					<img src="images/logo.png" alt="logo" class="d-block m-auto img-fluid logo">
+					<h2>คาสิโนออนไลน์ เว็บอันดับ 1 ของเมืองไทย</h2>
+					<div class="main-form">
+						<ul class="nav nav-tabs" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active tab1s" href="#tab-signin" role="tab" data-toggle="tab">SIGN IN</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link tab2s" href="#tab-join" role="tab" data-toggle="tab">JOIN NOW</a>
+							</li> 
+						</ul> 
+
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane fade show active" id="tab-signin">
+								<form>
+									<div class="form-group">
+										<label>User Account or Phone Number:</label>
+										<input type="text" name="username"  class="form-control" placeholder="write your user account or phone number">
+									</div>
+									<div class="form-group">
+										<label>Password / PIN</label>
+										<input type="password" name="password" id="password" class="form-control" placeholder="write your password or pin code">
+										<span toggle="#password-field" class="far fa-fw fa-eye-slash field-icon toggle-password"></span>
+									</div>
+									<div class="form-group text-right">
+										<label>Forgot your password?</label> 
+									</div>
+									<div class="form-group">
+										<button class="btn">SIGN IN</button>
+									</div>
+
+								</form>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="tab-join">
+								<form>
+									<div class="form-group">
+										<label>Account Name</label>
+										<input type="text" name="username"  class="form-control" placeholder="write your account name">
+									</div>
+									<div class="form-group">
+										<label>Phone Number</label>
+										<input type="password" name="password" id="password" class="form-control" placeholder="write your phone number">
+										<span toggle="#password-field" class="far fa-fw fa-eye-slash field-icon toggle-password"></span>
+									</div>
+									<div class="form-group row">
+										<div class="col-6">
+											<label>Password</label>
+											<input type="text" name="username"  class="form-control" placeholder="write your password or pin code">
+										</div>
+										<div class="col-6">
+											<label>Repeat Password</label>
+											<input type="text" name="username"  class="form-control" placeholder="repeat your password">
+										</div>
+									</div>
+									<div class="form-group row">
+										<div class="col-6">
+											<label>OTR</label>
+											<input type="text" name="username"  class="form-control" placeholder="OTR">
+										</div>
+										<div class="col-6">
+											<label>PIN Code</label>
+											<input type="text" name="username"  class="form-control" placeholder="write your pin code">
+										</div>
+									</div>
+									<br>
+									<div class="form-group">
+										<button class="btn">JOIN NOW</button>
+									</div>
+
+								</form>
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
 
 	 
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
@@ -897,7 +978,25 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script>
 
  
- 
+	<script>
+		$('.btn-sign').on( "click", function() {
+			$('.main-form .nav-tabs .nav-item .nav-link').removeClass('active');
+			$('.main-form .nav-tabs .nav-item .tab1s').addClass('active');  
+
+			$('.main-form .tab-pane').removeClass('active show');
+			$('.main-form #tab-signin').addClass('active show'); 
+			$('#signIn').modal('show');
+		});
+
+		$('.btn-join').on( "click", function() {
+			$('.main-form .nav-tabs .nav-item .nav-link').removeClass('active');
+			$('.main-form .nav-tabs .nav-item .tab2s').addClass('active');  
+			
+			$('.main-form .tab-pane').removeClass('active show');
+			$('.main-form #tab-join').addClass('active show'); 
+			$('#signIn').modal('show');
+		});
+	</script>
 
  
 </body>
