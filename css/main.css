@@ -1790,11 +1790,10 @@ footer .social ul li div{
   padding-top: 10px;
 } 
 .sport-left{
-  min-height: 100vh;
+  height: 100%;
   background-color: #2F2656;
 } 
-.main-sport{
-  min-height: 100vh;
+.main-sport{ 
   background-color: #2F2656;
 }
 .bet-slip{
@@ -2001,10 +2000,6 @@ footer .social ul li div{
   margin-bottom: 1px;
   background-color: #3B306A;
 }
-.accordion.game-sport .card .card-body{  
-  background: #2F2656;
-  padding: 0px;
-}
 .accordion.game-sport .card .card-header{  
   padding: 12px;
   height: 40px; 
@@ -2081,7 +2076,280 @@ footer .social ul li div{
 }
 .accordion.game-sport .card:last-child{
   border-radius: 0px 0px 5px 5px;
+} 
+.accordion.game-sport .card .card-body{  
+  background: #2F2656;
+  padding: 0px !important; 
 }
+.accordion.game-sport .card .card-body table{  
+  background: #2F2656;
+  padding: 0px !important;
+  margin-bottom: 0px;
+}
+.accordion.game-sport .card .card-body table td{  
+  border-top: 0px solid transparent !important; 
+  border-bottom: 1px solid #655D87; 
+  vertical-align: middle !important;
+  padding: 10px;
+} 
+.accordion.game-sport .card .card-body table tr:last-child td{  
+  border-bottom: 0px solid #655D87; 
+}
+.accordion.game-sport .card .card-body table td:nth-child(1){  
+  width: 60px;
+  font-size: 8px;
+  line-height: 10px; 
+  color: #9790B5;
+  font-family: Inter-Regular;
+} 
+.accordion.game-sport .card .card-body table td:nth-child(2){   
+  width: 50%;
+} 
+.accordion.game-sport .card .card-body table td:nth-child(2) h4{   
+  font-size: 10px;
+  line-height: 12px; 
+  color: #FFFFFF;
+  font-family: Inter-Regular;
+  margin-bottom: 6px;
+  position: relative;
+  padding-left: 26px;
+} 
+.accordion.game-sport .card .card-body table td:nth-child(2) h4 img{   
+  position: absolute;
+  height: 16px;
+  left: 0;
+} 
+.accordion.game-sport .card .card-body table .btn{   
+  font-family: Inter-SemiBold;
+  width: 60px;
+  height: 34px; 
+  background: #534789;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+  transition: .33s all ease-out;
+  position: relative;
+}  
+.accordion.game-sport .card .card-body table .btn:hover{   
+  background: #9086FF;
+} 
+.accordion.game-sport .card .card-body table .btn:active{   
+  background: #9086FF;
+}  
+.accordion.game-sport .card .card-body table .btn.active{   
+  background: #9086FF;
+}  
+.accordion.game-sport .card .card-body table td:nth-child(5){   
+  font-family: Inter-SemiBold;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+}    
+.accordion.game-sport .card .card-body table td:last-child{   
+  width: 55px;
+}   
+.accordion.game-sport .card .card-body table td:last-child{   
+  width: 55px;
+}   
+.accordion.game-sport .card .card-body table thead{   
+  margin-top: -40px;
+}    
+.accordion.game-sport .card .card-header .btn span{   
+  position: absolute;
+  right: calc(20%);
+}  
+.accordion.game-sport .card .card-header .btn span span{   
+  margin-right: 27px;
+  margin-left: 27px;
+  position: relative;
+  font-family: Inter-SemiBold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+}  
+.sport-ball{
+  width: 100%;
+  height: 166px;  
+  background: #2F2656;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+.sec-sport .lSAction > a { 
+  top: calc(50% - 32px) !important; 
+  margin-top: 0px !important;
+}  
+.sport-ball h4{
+  position: relative;
+  padding-left: 39px;
+  font-size: 10px;
+  line-height: 12px; 
+  color: #FFFFFF;
+  font-family: Inter-SemiBold;
+}
+.sport-ball h4 img{
+  position: absolute;
+  left: 15px;
+  height: 14px;
+}
+.sport-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sport-box .box{
+  width: 107px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.sport-box .box .btn{
+  width: 107px;
+  height: 32px; 
+  background: #534789;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+  font-family: Inter-SemiBold;
+}
+.sport-box .box img{
+  height: 44px;
+  margin-bottom: 7px;
+  display: block;
+  margin: auto;
+}
+.sport-box .box div{
+  height: 80px; 
+  margin-top: 10px;
+}
+.sport-box .box h3{
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+  font-family: Inter-SemiBold;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+.sport-box .box h2{
+  font-family: Inter-Bold;
+  font-size: 16px;
+  line-height: 19px; 
+  text-align: center;
+  color: #FFD058;
+  margin-top: 40px;
+}
+.sport-box .box h5{
+  font-family: Inter-SemiBold;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+  text-align: center;
+}
+.sport-box .box:nth-child(2) div{
+  margin-top: -30px;
+}
+.menu-left1{
+  padding-left: 0px;
+  list-style: none;
+  padding-top: 20px;
+}
+.menu-left1 li{ 
+  height: 24px;
+  width: 100%;
+  position: relative;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.menu-left1 li a{ 
+  padding: 6px 10px 8px 34px;
+  font-size: 10px;
+  line-height: 21px; 
+  font-family: Inter-SemiBold; 
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  transition: .33s all ease-out;
+}
+.menu-left1 li a img{ 
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.menu-left1 li.active a{ 
+  background: #595081;
+}
+.menu-left1 li:hover a{ 
+  background: #1C1433;
+}
+.sport-left hr{ 
+  border: 1px solid #655D87;
+  margin: 15px 10px; 
+}
+.sport-left h2{ 
+  font-family: Inter-SemiBold;
+  font-size: 11px;
+  line-height: 13px; 
+  color: #FFFFFF;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-left2{
+  padding-left: 0px;
+  list-style: none; 
+}
+.menu-left2 li{ 
+  height: 24px;
+  width: 100%;
+  position: relative;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.menu-left2 li a{ 
+  padding: 6px 10px 8px 34px;
+  font-size: 10px;
+  line-height: 21px; 
+  font-family: Inter-SemiBold; 
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  transition: .33s all ease-out;
+  position: relative;
+}
+.menu-left2 li a:after{ 
+  content: "";
+  position: absolute;
+  right: 6px;
+  width: 13px;
+  top: 0;
+  margin-top: 8px;
+  height: 17px;
+  background: url(../images/upx2.png) !important;
+  background-position: center !important;
+  background-size: 13px 17px !important;
+  background-repeat: no-repeat !important;
+}
+.menu-left2 li a img{ 
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.menu-left2 li.active a{ 
+  background: #595081;
+}
+.menu-left2 li:hover a{ 
+  background: #1C1433;
+} 
+.menu-left2 li a span{ 
+  position: absolute;
+  right: 0;
+  margin-right: 40px;
+}
+
+
+
 
 
 
@@ -2098,7 +2366,21 @@ footer .social ul li div{
   }
 }
 @media only screen and (max-width: 991px) { /* MOBILE */  
-  
+  .sport > .container-fluid > .row > .col-xl-2.pr-0{
+    padding-right: 15px !important;
+  }
+  .accordion.game-sport .card{
+    border-radius: 5px !important;
+  }
+  .bet-slip{
+    margin-top: 20px;
+  }
+  .accordion.game-sport .card .card-header .btn span {
+    display: none;
+  }
+  .sport-ball {
+    margin-top: 20px;
+  }
   .submit-group{   
     right: 16px; 
   }
@@ -2158,7 +2440,8 @@ footer .social ul li div{
     margin-top: 35px;
   }
   body{ 
-    background: url(../images/mob-main.jpg); 
+    background: url(../images/mob-main.jpg);
+    background-repeat: repeat-y !important; 
   }
   .modal-signin .modal-dialog{
     width: auto;
