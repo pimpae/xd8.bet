@@ -1783,7 +1783,305 @@ footer .social ul li div{
   display: block;
 }
 
-
+.sport{
+  margin-top: 35px;
+  background-color: #1C1433;
+  min-height: 100vh;
+  padding-top: 10px;
+} 
+.sport-left{
+  min-height: 100vh;
+  background-color: #2F2656;
+} 
+.main-sport{
+  min-height: 100vh;
+  background-color: #2F2656;
+}
+.bet-slip{
+  min-height: 310px;
+  background: #2F2656;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.bet-slip h3{
+  font-family: Inter-SemiBold;
+  height: 55px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;  
+  color: #FFFFFF;
+  background: #3B306A;
+  border-radius: 5px 5px 0px 0px;
+  padding: 19px 40px;
+  position: relative;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #655D87;
+}
+.bet-slip h3 img{
+  position: absolute;
+  left: 15px;
+}
+.bet-slip .slip{ 
+  height: 52px; 
+  background: #473B7B;
+  padding: 10px 15px;
+  position: relative;
+  margin-bottom: 1px;
+}
+.bet-slip .slip .closex{
+  position: absolute;
+  right: 7.5px;
+  top: 7.5px;
+}
+.bet-slip .slip h4{
+  font-family: Inter-SemiBold;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px; 
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+.bet-slip .slip h4 span{
+  float: right;
+  margin-right: 20px
+}
+.bet-slip .slip h5{
+  font-family: Inter-Regular;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px; 
+  color: #BFB7DE;
+  margin-bottom: 0px;
+} 
+.bet-slip .bet{ 
+  height: 76px; 
+  background: #473B7B;
+  padding: 10px 15px;
+  position: relative;
+  margin-bottom: 1px;
+}
+.bet-slip .bet h4{
+  font-family: Inter-SemiBold;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px; 
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+.bet-slip .bet h4 span{
+  float: right;
+  margin-right: 20px
+}
+.bet-slip .bet input{
+  width: 158px;
+  height: 34px;
+  left: 1110px;
+  top: 315px; 
+  background: #2F2656;
+  border-radius: 3px;
+  border: none;
+  text-align: right;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  font-family: Inter-SemiBold;
+}
+.bet-slip .bet input + p{
+  margin-top: -25px;
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  font-family: Inter-SemiBold;
+}
+.bet-slip .bet h6{
+  font-family: Inter-SemiBold;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #BFB7DE;
+  position: absolute;
+  top: 30px;
+  left: 190px;
+}
+.bet-slip .bet h6 span{
+  color: #fff; 
+}
+.bet-slip .total{
+  padding: 15px;
+}
+.bet-slip .total h6{
+  font-family: Inter-Regular;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: center; 
+  color: #BFB7DE;
+  position: relative;
+}
+.bet-slip .total h6 span{
+  position: absolute;
+  right: 0;
+}
+.bet-slip .total h5{
+  font-family: Inter-SemiBold;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center; 
+  color: #fff;
+  position: relative;
+  margin-bottom: 25px;
+}
+.bet-slip .total h5 span{
+  position: absolute;
+  right: 0;
+}
+.btn-clear{
+  font-family: Inter-SemiBold;
+  width: 151px;
+  height: 38px;
+  left: 1110px;
+  top: 443px;
+  font-size: 14px;
+  line-height: 17px; 
+  color: #BFB7DE; 
+  background: #40366A;
+  border-radius: 5px;
+  width: 47%;
+  margin-right: 5px;
+  transition: .33s all ease-out;
+}
+.btn-bet{
+  font-family: Inter-SemiBold;
+  width: 151px;
+  height: 38px;
+  left: 1110px;
+  top: 443px;
+  font-size: 14px;
+  line-height: 17px; 
+  color: #fff; 
+  background: #9086FF;
+  border-radius: 5px;
+  width: 47%;
+  margin-left: 5px;
+  transition: .33s all ease-out;
+} 
+.btn-clear:hover{ 
+  color: #fff; 
+  background: #695BA5; 
+} 
+.btn-bet:hover{ 
+  color: #fff; 
+  background: #B5AEFF; 
+}
+.bet-slip.emptyx h3{ 
+  border-bottom: 0px solid #655D87;
+}
+.empty-box{
+  height: 255px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.empty-box img{
+  margin-bottom: 30px;
+  height: 85px;
+}
+.empty-box h4{   
+  font-size: 14px;
+  line-height: 17px; 
+  display: flex;
+  align-items: center; 
+  color: #9790B5;
+  font-family: Inter-SemiBold;
+} 
+.accordion.game-sport .card {  
+  border: none;
+  margin-bottom: 1px;
+  background-color: #3B306A;
+}
+.accordion.game-sport .card .card-body{  
+  background: #2F2656;
+  padding: 0px;
+}
+.accordion.game-sport .card .card-header{  
+  padding: 12px;
+  height: 40px; 
+  background: #3B306A;
+}
+.accordion.game-sport .card  .btn.focus, .accordion.game-sport .card  .btn:focus {
+  outline: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.accordion.game-sport .card  .btn.active, .accordion.game-sport .card  .btn:active {
+  outline: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.accordion.game-sport .card .card-header .btn{   
+  font-size: 13px;
+  line-height: 16px;  
+  color: #FFFFFF;
+  margin-top: -33px;
+  width: 100%;
+  text-align: left; 
+  position: relative;
+  padding-left: 40px; 
+}
+.accordion.game-sport .card .card-header .btn.collapsed{    
+  font-size: 13px;
+  line-height: 16px;  
+  color: #FFFFFF;
+  margin-top: -33px;
+  width: 100%;
+  text-align: left; 
+  position: relative;
+  padding-left: 40px; 
+}
+.accordion.game-sport .card .card-header .btn.collapsed img{   
+  height: 14px;
+  opacity: .65;
+  position: absolute;
+  left: 10px;
+}
+.accordion.game-sport .card .card-header .btn img{    
+  height: 14px;
+  opacity: 1;
+  position: absolute;
+  left: 10px;
+}
+.accordion.game-sport .card .card-header .btn.collapsed::after{
+  content: "";
+  top: 2px;
+  position: absolute;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/upx2.png) !important;
+  background-position: center !important;
+  background-size: 24px !important;
+  background-repeat: no-repeat !important;
+}
+.accordion.game-sport .card .card-header .btn::after{
+  content: "";
+  top: 2px;
+  position: absolute;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/upx1.png) !important;
+  background-position: center !important;
+  background-size: 24px !important;
+  background-repeat: no-repeat !important;
+}
+.accordion.game-sport .card:first-child{
+  border-radius: 5px 5px 0px 0px;
+}
+.accordion.game-sport .card:last-child{
+  border-radius: 0px 0px 5px 5px;
+}
 
 
 
