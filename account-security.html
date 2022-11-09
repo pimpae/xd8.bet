@@ -313,7 +313,129 @@
 
 		</div>
 	</footer>
+	<div class="modal fade modal-signin" id="modalExecw">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content"> 
+				<div class="modal-body">
+					<img src="images/logo.png" alt="logo" class="d-block m-auto img-fluid logo">
+					<h2>คาสิโนออนไลน์ เว็บอันดับ 1 ของเมืองไทย</h2>
+					<div class="main-form">
+						<ul class="nav nav-tabs" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active tab1s" href="#tab-deposit" role="tab" data-toggle="tab">DEPOSIT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link tab2s" href="#tab-withdraw" role="tab" data-toggle="tab">WITHDRAW</a>
+							</li> 
+						</ul> 
 
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane fade show active" id="tab-deposit">
+								<h4>Select the bank you wish to transfer money to.</h4>
+								<p>
+									Please use the account you applied for transfer only <br>
+									The system will automatically top up game credits within 1-2 minutes.
+								</p>
+
+								<button class="btn btn-bank" id="1"> 
+									<img src="images/scb.png" class="bank" alt="bank">
+									Siam Commercial Bank Public Company Limited  
+									<img src="images/Vector.png" class="bank-view" alt="scb">
+								</button>
+
+								<button class="btn btn-bank" id="2"> 
+									<img src="images/tmw.png" class="bank" alt="bank">
+									True Money Wallet
+									<img src="images/Vector.png" class="bank-view" alt="tmw">
+								</button>
+
+								<div class="bank-box box1">
+									<h3><img src="images/scb.png" alt="scb">Siam Commercial Bank Public Company Limited</h3>
+									<h4>Account Name:</h4>
+									<h5>Nantawat Kongmuang</h5>
+
+									<h4>PIN Code:</h4>
+									<h5>
+										<a href="#" onclick="copyToClipboard('#p1')">
+											<span id="p1">4161089399</span> <img src="images/Attachment@2x.png" alt="Attachment" class="attachment">
+										</a>
+									</h5> 
+								</div>
+
+								<div class="bank-box box2">
+									<h3><img src="images/tmw.png" alt="scb">True Money Wallet</h3>
+									<h4>Account Name:</h4>
+									<h5>Nantawat Kongmuang</h5>
+
+									<h4>PIN Code:</h4>
+									<h5>
+										<a href="#" onclick="copyToClipboard('#p2')">
+											<span id="p2">0987611695</span> <img src="images/Attachment@2x.png" alt="Attachment" class="attachment">
+										</a>
+									</h5>
+								</div>
+
+								<div class="data-depo">
+									<h4>Deposit transaction history</h4>
+									<table class="table tb-transactions">
+										<thead>
+											<tr>
+												<th>Date/Time</th>
+												<th>Amount</th>
+												<th>Status</th> 
+											</tr>
+										</thead>
+										<tbody>
+											<tr> 
+											</tr> 
+										</tbody>
+									</table>
+		
+									<div class="col data-tablex">
+										<h5>THERE IS NO DATA</h5>
+									</div>
+								</div>
+								
+								
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="tab-withdraw">
+							 
+									
+								<div class="with-amount">
+									<h3>Withdrawal amount:</h3>
+									<h1><img src="images/Wallet.png" alt=""> ฿ 0.00</h1>
+								</div>
+								
+								<hr>
+
+								<h4>Withdrawal transaction history</h4>
+
+								<table class="table tb-transactions">
+									<thead>
+										<tr>
+											<th>Date/Time</th> 
+											<th>Amount</th> 
+											<th>Deduct bonus</th> 
+											<th>Status</th>  
+										</tr>
+									</thead>
+									<tbody>
+										<tr> 
+										</tr> 
+									</tbody>
+								</table>
+	
+								<div class="col data-tablex">
+									<h5>THERE IS NO DATA</h5>
+								</div>
+					 
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
 
 	 
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
@@ -324,38 +446,53 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script>
 
 	<script>
-		$('.carousel-item', '.show-neighbors').each(function () {
-			var next = $(this).next();
-			if (!next.length) {
-				next = $(this).siblings(':first');
-			}
-			next.children(':first-child').clone().appendTo($(this));
-		}).each(function () {
-			var prev = $(this).prev();
-			if (!prev.length) {
-				prev = $(this).siblings(':last');
-			}
-			prev.children(':nth-last-child(2)').clone().prependTo($(this));
+		
+		$('.btn-deposit').on( "click", function() {
+			$('.main-form .nav-tabs .nav-item .nav-link').removeClass('active');
+			$('.main-form .nav-tabs .nav-item .tab1s').addClass('active');  
+
+			$('.main-form .tab-pane').removeClass('active show');
+			$('.main-form #tab-deposit').addClass('active show'); 
+			$('.modal-signin .modal-dialog').addClass('active'); 
+			$('.bank-box').removeClass('active');  
+			$('.data-depo').removeClass('active'); 
+			$('#modalExecw').modal('show');
+		});
+
+		$('.btn-withdraw').on( "click", function() {
+			$('.main-form .nav-tabs .nav-item .nav-link').removeClass('active');
+			$('.main-form .nav-tabs .nav-item .tab2s').addClass('active');  
+			
+			$('.main-form .tab-pane').removeClass('active show');
+			$('.main-form #tab-withdraw').addClass('active show'); 
+			$('.modal-signin .modal-dialog').removeClass('active');  
+			$('.data-depo').removeClass('active'); 
+			$('#modalExecw').modal('show');
+		});
+
+		$('.btn-bank').on( "click", function() {  
+			$('.bank-box').removeClass('active'); 
+			$('.data-depo').addClass('active'); 
+			$('.bank-box.box'+$(this).attr('id')).addClass('active'); 
 		});
  
+
+
 		$('.menu-sli').click(function() {
 			$('.account-form').removeClass("active");
 			$('.media-menu').addClass("active"); 
-		});
-
+		}); 
 
 		$(".toggle-password").click(function() {
 
-		$(this).toggleClass("fa-eye fa-eye-slash");
+			$(this).toggleClass("fa-eye fa-eye-slash");
 
-		var x = document.getElementById("password");
-		if (x.type === "password") {
-			x.type = "text";
-		} else {
-			x.type = "password";
-		}
-
-
+			var x = document.getElementById("password");
+			if (x.type === "password") {
+				x.type = "text";
+			} else {
+				x.type = "password";
+			} 
 		});
 	</script>
 	

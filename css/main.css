@@ -1073,6 +1073,23 @@ footer .social ul li div{
   margin-top: 15px;
   text-align: center;
 } 
+.modal-signin h4{ 
+  font-family: Inter-SemiBold; 
+  font-size: 16px;
+  line-height: 19px; 
+  color: #FFD058;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  text-align: center;
+} 
+.modal-signin p{ 
+  font-family: Inter-SemiBold;  
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center; 
+  color: #FFFFFF;
+} 
+
 .modal-signin .modal-body{
   overflow: hidden;
   padding: 0px;
@@ -1487,7 +1504,7 @@ footer .social ul li div{
   padding: 8px;
 }
 .data-tablex{
-  min-height: 150px;
+  min-height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1639,12 +1656,143 @@ footer .social ul li div{
 .form-refer.active button:after {
 	display: block;
 } 
+.with-amount{ 
+  height: 119px; 
+  background: #2F2449;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 5px;
+  padding: 20px;
+}
+.with-amount h3{ 
+  font-size: 16px;
+  line-height: 19px;
+  font-family: Inter-SemiBold; 
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.with-amount h1 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  font-family: Inter-Bold;
+  padding-left: 24px;
+  position: relative; 
+}
+.with-amount h1 img {
+  position: absolute;
+  height: 20px;
+  margin-top: 4px;
+  left: 0;
+}
+.modal-signin hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #8A7EB7;
+}
+.modal-signin .modal-dialog.active{
+  width: 501px;
+  max-width: 501px;
+}
+.btn-bank{
+  height: 56px; 
+  width: 100%;
+  background: #2F2449;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 5px;
+  margin-top: 12px;
+  position: relative;
+  font-size: 14px;
+  line-height: 42px;
+  font-family: Inter-SemiBold; 
+  color: #FFFFFF;
+  transition: .33s all ease-out;
+  text-align: left;
+  padding-left: 70px;
+}
+.btn-bank:hover{ 
+  color: #FFFFFF;
+}
+.btn-bank img.bank{
+  height: 35px;
+  position: absolute;
+  left: 18px;
+  top: 8px;
+}
+.btn-bank img.bank-view{
+  height:18px;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+} 
+.bank-box{
+  display: none;
+}
+.bank-box.active{
+  display: block;
+}
+.bank-box{ 
+  padding: 15px;
+  margin-top: 24px;
+  height: 165px; 
+  background: linear-gradient(180deg, #8351FF 0%, #5956FF 100%);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 5px;
+}
+.bank-box h3{ 
+  font-family: Inter-Bold;
+  position: relative;
+  padding-left: 40px;
+  font-size: 12px;
+  line-height: 25px; 
+  color: #FFFFFF; 
+  margin-bottom: 20px;
+} 
+.bank-box h3 img{ 
+  position: absolute;
+  left: 0;
+  height: 24px;
+} 
+.bank-box h4{ 
+  font-family: Inter-SemiBold;
+  text-align: left;
+  font-size: 14px;
+  line-height: 17px; 
+  color: #FFD058; 
+  margin-bottom: 4px;
+}  
+.bank-box h5{ 
+  font-family: Inter-Regular;
+  text-align: left;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #fff; 
+  margin-bottom: 15px;
+}  
+.bank-box h5 a{  
+  font-size: 12px;
+  line-height: 15px; 
+  color: #fff;  
+} 
+.bank-box h5 img{ 
+  height: 14px;
+} 
+.data-depo{
+  display: none;
+}
+.data-depo.active{
+  display: block;
+}
+
+
+
+
+
 
 
 
 /* transition: .33s all ease-out;  */
 
-/* font-family: Inter-SemiBold;  */
+/* font-family: Inter-SemiBold;  Regular */
 
 @media (min-width: 1200px){
   .container, .container-lg, .container-md, .container-sm, .container-xl {
