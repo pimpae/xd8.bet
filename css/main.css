@@ -36,10 +36,13 @@ a:hover{
     display: none !important;
   }  
 }
-body{
-  background: #1B1B1B; 
+body{ 
+  background: url(../images/web-main.jpg);
+  background-position:  center top !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
 }
-.bg-cir{
+/* .bg-cir{
   position: absolute;
   width: 900px;
   height: 900px; 
@@ -64,7 +67,7 @@ body{
 .bg-cir2{
   left: 0;
   top: 1600px; 
-} 
+}  */
 
 header nav{
   height: 78px;  
@@ -1183,6 +1186,9 @@ footer .social ul li div{
 
 
 
+
+
+
 /* transition: .33s all ease-out;  */
 
 /* font-family: Inter-SemiBold;  */
@@ -1193,7 +1199,9 @@ footer .social ul li div{
   }
 }
 @media only screen and (max-width: 991px) { /* MOBILE */
-  
+  body{ 
+    background: url(../images/mob-main.jpg); 
+  }
   .modal-signin .modal-dialog{
     width: auto;
     max-width: 100%;
