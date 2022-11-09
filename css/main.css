@@ -1101,6 +1101,8 @@ footer .social ul li div{
   width: 100%;
   border-bottom: 0px solid #dee2e6;
   height: 49px; 
+  width: 311px;
+  margin: auto;
 }
 .main-form .nav-tabs .nav-item {
   width: 50%;
@@ -1292,7 +1294,7 @@ footer .social ul li div{
   color: #FFFFFF;
 }
 .account-form{
-  padding-left: 45px;
+  padding-left: 30px;
   margin-top: 35px;
   position: relative;
 }
@@ -1484,6 +1486,161 @@ footer .social ul li div{
 .datepicker td, .datepicker th { 
   padding: 8px;
 }
+.data-tablex{
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.data-tablex h5{ 
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Inter-SemiBold; 
+  color: #FFFFFF;
+}
+.tb-transactions{
+  margin-top: 45px;
+}
+.tb-transactions th{
+  font-family: Inter-Bold; 
+  font-size: 14px;
+  line-height: 17px; 
+  color: #FFFFFF;
+  text-align: left;
+  vertical-align: middle;
+  border-top: 0px solid transparent !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0) !important;
+}
+.tb-transactions th:first-child{
+  padding-left: 0px;
+}
+.tb-transactions th:last-child{
+  padding-right: 0px;
+}
+.tb-transactions td{
+  font-family: Inter-SemiBold; 
+  font-size: 12px;
+  line-height: 15px; 
+  color: #CABCE9;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 0px solid #725E9D !important;
+  border-bottom: 1px solid #725E9D !important;
+}
+.tb-transactions td:first-child{
+  padding-left: 0px;
+}
+.tb-transactions td:last-child{
+  padding-right: 0px;
+}
+.account-form h1{
+  font-family: Inter-SemiBold; 
+  font-size: 18px;
+  line-height: 22px; 
+  color: #FFD058; 
+}
+.account-form h5{
+  font-family: Inter-Regular; 
+  font-size: 14px;
+  line-height: 17px; 
+  color: #FFFFFF; 
+  margin-bottom: 25px;
+}
+.referal-div > div{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.referal-div > div:first-child{
+  padding-left: 0px; 
+}
+.referal-div > div:last-child{
+  padding-right: 0px; 
+}
+.box-referal{ 
+  height: 99px; 
+  background: #2F2449;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 5px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} 
+.box-referal > div{  
+  display: block;
+  margin: auto; 
+  text-align: center;
+}
+.box-referal > div > div{ 
+  width: 24px;
+  height: 24px; 
+  background: linear-gradient(180deg, #8B69FF 0%, #AE46FF 100%);
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.box-referal img{ 
+  max-height: 18px;
+  margin-top: -2px;
+}
+.box-referal h4{ 
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px; 
+  font-family: Inter-Regular;  
+  color: #FFFFFF; 
+}
+.form-refer{ 
+  position: relative;
+  width: 392px; 
+  max-width: 392px;
+}
+.form-refer input{
+  width: 392px; 
+}
+.submit-group{  
+  height: 34px;
+  top: 1px;
+  position: absolute;
+  right: -15px;
+  width: 67px;
+}
+
+.form-refer button:active {
+	background: #7A50E4;
+}
+.form-refer button:before {
+	content: "Copied";
+	position: absolute;
+	top: -45px;
+	right: 0px;
+	background: #7A50E4;
+	padding: 8px 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	display: none;
+  font-family: Inter-Regular;  
+  color: #FFFFFF; 
+}
+.form-refer button:after {
+	content: "";
+	position: absolute;
+	top: -20px;
+	right: 25px;
+	width: 10px;
+	height: 10px;
+	background: #7A50E4;
+	transform: rotate(45deg);
+	display: none;
+}
+.form-refer.active button:before,
+.form-refer.active button:after {
+	display: block;
+} 
+
+
 
 /* transition: .33s all ease-out;  */
 
@@ -1496,8 +1653,37 @@ footer .social ul li div{
 }
 @media only screen and (max-width: 991px) { /* MOBILE */  
   
+  .submit-group{   
+    right: 16px; 
+  }
+  .form-refer{ 
+    position: relative;
+    width: 100%; 
+    max-width: 100%;
+  }
+  .form-refer input{
+    width: 100%; 
+    padding-right: 80px;
+  }
+  .referal-div > div:nth-child(1){ 
+    padding-right: 5px;
+    padding-left: 0px !important;
+  }
+  .referal-div > div:nth-child(2){ 
+    padding-left: 5px;
+    padding-right: 0px !important;
+  }
+  .referal-div > div:nth-child(3){ 
+    margin-top: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
   .menu-sli{
     display: block;
+  }
+  .submit-search{
+    display: block;
+    width: 100%;
   }
   .account-form h2{  
     padding-left: 100px;
