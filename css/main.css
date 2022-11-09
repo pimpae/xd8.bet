@@ -1182,12 +1182,308 @@ footer .social ul li div{
   background: #AA91FF; 
   color: #FFFFFF; 
 }
+.media-menu .profile{
+  height: 220px;
+  left: 248px;
+  top: 113px;
+  margin-top: 35px;
+  background: linear-gradient(180deg, #6F51BA 0%, rgba(89, 58, 165, 0.17) 100%);
+  border-radius: 10px;
+  border: 1px solid #fff;
+  margin-bottom: 25px;
+  padding: 21px 25px 20px;
+}
+.media-menu .profile h6{
+  font-size: 13px;
+  line-height: 16px; 
+  color: #E2D8FC;
+  font-family: Inter-Regular;
+}
+.media-menu .profile h2{
+  font-size: 13px;
+  line-height: 16px; 
+  color: #E2D8FC;
+  font-family: Inter-Bold;  
+  margin-bottom: 24px;
+}
+.media-menu .profile h3{
+  font-size: 13px;
+  line-height: 16px; 
+  color: #E2D8FC;
+  font-family: Inter-Regular;
+}
+.media-menu .profile h1{
+  font-size: 18px;
+  line-height: 22px; 
+  color: #E2D8FC;
+  font-family: Inter-Bold;
+  padding-left: 24px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.media-menu .profile h1 img{
+  position: absolute;
+  height: 16px;
+  margin-top: 4px;
+  left: 0;
+}
+.media-menu .profile .btn{
+  margin: 5px;
+  width: 46%;
+  height: 38px; 
+  background: #FFFFFF;
+  border-radius: 19px;
+  float: left;
+  color: #9086FF;
+  transition: .33s all ease-out;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: Inter-Bold;
+}
+.media-menu .profile .btn:hover{
+  background: #9A84FF;
+  color: #fff; 
+}
+.menu-listx{
+  list-style: none;
+  padding-left: 0px;
+}
+.menu-listx li{
+  position: relative;
+  border-bottom: 1px solid #725E9D;
+  padding: 15px 15px 20px 55px;
+}
+.menu-listx li.active a{
+  color: #FFFFFF;
+}
+.menu-listx li:last-child{ 
+  border-bottom: 1px solid rgba(0, 0, 0, 0); 
+}
+.menu-listx li .img-icon{
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 40px;  
+  background: #504368;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .33s all ease-out;
+}
+.menu-listx li.active .img-icon{
+  background: linear-gradient(180deg, #7835FF 0%, #AE46FF 100%);
+}
+.menu-listx li:hover .img-icon{
+  background: linear-gradient(180deg, #7835FF 0%, #AE46FF 100%);
+}
+.menu-listx li a{
+  font-size: 14px;
+  line-height: 17px; 
+  color: #D7CCFF;
+  font-family: Inter-SemiBold; 
+  line-height: 35px;
+  transition: .33s all ease-out;
+  width: 100%;
+  display: block;
+}
+.menu-listx li:hover a{
+  color: #FFFFFF;
+}
+.account-form{
+  padding-left: 45px;
+  margin-top: 35px;
+  position: relative;
+}
+.account-form h2{ 
+  font-size: 18px;
+  line-height: 22px; 
+  color: #fff;
+  font-family: Inter-SemiBold; 
+  margin-bottom: 50px;
+  position: relative;
+}
+.account-form h2 div{ 
+  width: 40px;
+  height: 40px; 
+  background: linear-gradient(180deg, #7835FF 0%, #AE46FF 100%);
+  border-radius: 10px;
+  position: absolute; 
+  justify-content: center;
+  align-items: center;
+  display: none;
+  left: 0;
+}
+.account-form h3{  
+  font-family: Inter-SemiBold; 
+  font-size: 16px;
+  line-height: 19px; 
+  color: #FFFFFF;
+  position: relative;
+  margin-bottom: 25px;
+}
+.account-form h3::after{ 
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  width: 32px;
+  height: 2px;
+  border-radius: 3px; 
+}
+.account-form h3.bg1::after{  
+  background-color: #58B9FF;
+}
+.account-form h3.bg2::after{  
+  background-color: #FF58EE;
+}
+.account-form form hr{  
+  border-top: 1px solid #725E9D;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.account-form form label{  
+  font-size: 13px;
+  line-height: 17px;
+  font-family: Inter-SemiBold;  
+  color: #FFFFFF;
+}
+.account-form form input{  
+  height: 36px; 
+  background: #2F2449;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+  font-family: Inter-SemiBold;   
+} 
+.account-form form input:focus{   
+  background: #2F2449; 
+  outline: none;
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+  font-family: Inter-SemiBold;   
+}
+.menu-sli{
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: -5px;
+  margin-top: 5px;
+  z-index: 34;
+  display: none;
+} 
+.menu-sli:focus{
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.account-form .field-icon {
+  float: right;
+  margin-right: 15px;
+  margin-top: -26px;
+  position: relative;
+  z-index: 2;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-submit{
+  width: 74px;
+  height: 33px; 
+  background: #7A50E4;
+  border-radius: 5px;
+  text-align: center; 
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+  font-family: Inter-SemiBold
+}
 
 
 
-
-
-
+.select-type .sel1 + .btn{
+  width: 100; 
+  height: 36px;  
+} 
+.select-type .sel2{
+  width: 100% !important; 
+  height: 36px;  
+} 
+.bootstrap-select.select-type { 
+  border-radius: 5px;
+  height: 36px;  
+}
+.bootstrap-select.select-type .dropdown-menu.inner { 
+  background: #2F2449;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+  font-family: Inter-SemiBold
+}
+.bootstrap-select.select-type .dropdown-menu {
+  background-color: #2F2449;
+}
+.bootstrap-select.select-type .dropdown-item {
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+  font-family: Inter-SemiBold
+}
+.bootstrap-select.select-type .dropdown-item:hover { 
+  color: #281F5F; 
+}
+.bootstrap-select .btn{
+  font-family: Inter-SemiBold;
+  font-size: 12px;
+  line-height: 15px; 
+  color: #FFFFFF;
+  background: #2F2449;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 5px;
+  height: 36px;  
+} 
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+  color: #fff;
+  background-color: #2F2449;
+  border-color: #2F2449;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+.datepicker-dropdown:after { 
+  border-bottom: 6px solid transparent !important; 
+}
+.datepicker {
+  background: #281F5F; 
+  font-size: 14px; 
+  color: #B0AFEC;
+  font-family: Inter-Light;
+} 
+.datepicker .today.active.day{
+  background-color: #7E68FF !important;
+}
+.datepicker .datepicker-days thead th:first-child{
+  color: #FF4286; 
+}
+.datepicker .datepicker-days thead th:last-child{
+  color: #FF4286; 
+}
+.datepicker .datepicker-days tbody td:first-child{
+  color: #FF4286; 
+}
+.datepicker .datepicker-days tbody td:last-child{
+  color: #FF4286; 
+}
+.datepicker td, .datepicker th { 
+  padding: 8px;
+}
 
 /* transition: .33s all ease-out;  */
 
@@ -1198,7 +1494,37 @@ footer .social ul li div{
     max-width: 944px;
   }
 }
-@media only screen and (max-width: 991px) { /* MOBILE */
+@media only screen and (max-width: 991px) { /* MOBILE */  
+  
+  .menu-sli{
+    display: block;
+  }
+  .account-form h2{  
+    padding-left: 100px;
+    line-height: 40px;
+    border-bottom: 1px solid #725E9D;
+    padding-bottom: 15px;
+  }
+  .account-form h2 div{  
+    display: flex;
+    margin-left: 48px;
+  }
+  .media-menu{
+    display: none;
+  }
+  .account-form{
+    display: none; 
+  }
+  .media-menu.active{
+    display: block;
+  }
+  .account-form.active{
+    display: block; 
+  }
+  .account-form{
+    padding-left: 0px;
+    margin-top: 35px;
+  }
   body{ 
     background: url(../images/mob-main.jpg); 
   }

@@ -127,13 +127,13 @@
 							<button class="btn">WITHDRAW</button>
 						</div>
 						<ul class="menu-listx">
-							<li class="active">
+							<li>
 								<a href="account-settings.html">
 									<div class="img-icon"><img src="images/Profile1.png" alt="Account Settings"></div>
 									Account Settings
 								</a>
 							</li>
-							<li>
+							<li class="active">
 								<a href="account-security.html">
 									<div class="img-icon"><img src="images/Lock3.png" alt="Account Security"></div>
 									Account Security
@@ -168,50 +168,40 @@
 					<div class="col-xl-7">
 						<div class="account-form active">
 							<button class="menu-sli"><img src="images/LeftCircle2.png" alt="LeftCircle2"></button>
-							<h2> <div><img src="images/Profile1.png" alt="Account Settings"></div> Account Settings</h2>
+							<h2> <div><img src="images/Lock3.png" alt="Account Settings"></div> Account Security</h2>
 
 							<form>
-								<h3 class="bg1">User Info</h3>
+								<h3 class="bg1">Change Password</h3>
 
 								<div class="form-group row">
-									<div class="col-4">
-										<label>User ID</label>
+									<div class="col-6">
+										<label>Current Password</label>
 									</div>
-									<div class="col-8">
-										<input type="text" class="form-control" name="user_id" value="13371337">
+									<div class="col-6">
+										<input type="password" id="password" class="form-control" name="user_id" value="111111111">
+										<span toggle="#password-field" class="far fa-fw fa-eye-slash field-icon toggle-password"></span>
 									</div>
 								</div>  
 								<div class="form-group row">
-									<div class="col-4">
-										<label>Username</label>
+									<div class="col-6">
+										<label>New Password</label>
 									</div>
-									<div class="col-8">
-										<input type="text" class="form-control" name="username" value="Execw">
+									<div class="col-6">
+										<input type="password" class="form-control" name="username" value="1">
 									</div>
 								</div>  
 								<div class="form-group row">
-									<div class="col-4">
-										<label>Currency</label>
+									<div class="col-6">
+										<label>Confirm New Password</label>
 									</div>
-									<div class="col-8">
-										<input type="text" class="form-control" name="currency" value="Baht">
-									</div>
-								</div> 
-
-								<hr>
-
-
-								<h3 class="bg2">User Email</h3>
-
-								<div class="form-group row">
-									<div class="col-4">
-										<label>Email</label>
-									</div>
-									<div class="col-8">
-										<input type="email" class="form-control" name="email" value="Execweb22@gmail.com">
+									<div class="col-6">
+										<input type="password" class="form-control" name="currency" value="1">
 									</div>
 								</div>  
 
+								<div class="  text-right"> 
+									<button type="submit" class="btn btn-submit">UPDATE</button> 
+								</div>  
 								<hr>
 
 							</form>
@@ -353,6 +343,20 @@
 			$('.media-menu').addClass("active"); 
 		});
 
+
+		$(".toggle-password").click(function() {
+
+		$(this).toggleClass("fa-eye fa-eye-slash");
+
+		var x = document.getElementById("password");
+		if (x.type === "password") {
+			x.type = "text";
+		} else {
+			x.type = "password";
+		}
+
+
+		});
 	</script>
 	
 	 

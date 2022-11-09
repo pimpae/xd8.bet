@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" />
  
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"  /> 
+ 
 	
 </head>
 <body>
@@ -127,7 +130,7 @@
 							<button class="btn">WITHDRAW</button>
 						</div>
 						<ul class="menu-listx">
-							<li class="active">
+							<li>
 								<a href="account-settings.html">
 									<div class="img-icon"><img src="images/Profile1.png" alt="Account Settings"></div>
 									Account Settings
@@ -139,7 +142,7 @@
 									Account Security
 								</a>
 							</li>
-							<li>
+							<li class="active">
 								<a href="game-history.html">
 									<div class="img-icon"><img src="images/PS51.png" alt="Game History"></div>
 									Game History
@@ -168,52 +171,34 @@
 					<div class="col-xl-7">
 						<div class="account-form active">
 							<button class="menu-sli"><img src="images/LeftCircle2.png" alt="LeftCircle2"></button>
-							<h2> <div><img src="images/Profile1.png" alt="Account Settings"></div> Account Settings</h2>
+							<h2> <div><img src="images/PS51.png" alt="Account Settings"></div> Game History</h2>
 
-							<form>
-								<h3 class="bg1">User Info</h3>
-
+							<form class="form-game-his">
 								<div class="form-group row">
-									<div class="col-4">
-										<label>User ID</label>
+									<div class="col-xl-3 col-12">
+										<label>Type</label>
+										<select class="selectpicker form-control select-type" title="Type" data-show-subtext="true" data-live-search="false" name="sel1" id="sel1"  >
+											<option selected>All</option>
+											<option>Game 1</option>
+											<option>Game 2</option>
+											<option>Game 3</option>
+											<option>Game 4</option>
+										</select>
 									</div>
-									<div class="col-8">
-										<input type="text" class="form-control" name="user_id" value="13371337">
+									<div class="col-xl-4 col-12">
+										<label>Start Date</label>
+										<input type="text" class="form-control date" name="start_date" value="2022-10-21 00:00:00">
 									</div>
-								</div>  
-								<div class="form-group row">
-									<div class="col-4">
-										<label>Username</label>
+									<div class="col-xl-4 col-12">
+										<label>End Date</label>
+										<input type="text" class="form-control date" name="end_date" value="2022-10-21 00:00:00">
 									</div>
-									<div class="col-8">
-										<input type="text" class="form-control" name="username" value="Execw">
+ 
+									<div class="col-xl-1 col-12"> 
+										<label>&nbsp;</label>
+										<button type="submit" class="btn btn-submit">Search</button> 
 									</div>
-								</div>  
-								<div class="form-group row">
-									<div class="col-4">
-										<label>Currency</label>
-									</div>
-									<div class="col-8">
-										<input type="text" class="form-control" name="currency" value="Baht">
-									</div>
-								</div> 
-
-								<hr>
-
-
-								<h3 class="bg2">User Email</h3>
-
-								<div class="form-group row">
-									<div class="col-4">
-										<label>Email</label>
-									</div>
-									<div class="col-8">
-										<input type="email" class="form-control" name="email" value="Execweb22@gmail.com">
-									</div>
-								</div>  
-
-								<hr>
-
+								</div>
 							</form>
 
 						</div>
@@ -332,6 +317,12 @@
 
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.th.min.js"></script> 
+    
 
 	<script>
 		$('.carousel-item', '.show-neighbors').each(function () {
@@ -353,6 +344,29 @@
 			$('.media-menu').addClass("active"); 
 		});
 
+
+		$(".toggle-password").click(function() {
+
+		$(this).toggleClass("fa-eye fa-eye-slash");
+
+			var x = document.getElementById("password");
+			if (x.type === "password") {
+				x.type = "text";
+			} else {
+				x.type = "password";
+			} 
+		});
+
+
+		$('.date').datepicker({
+                format: 'dd-mm-yyyy',
+                clearBtn: true,
+                language: "en", 
+                calendarWeeks: false,
+                autoclose: true,
+                todayHighlight: true,
+                toggleActive: true
+            });
 	</script>
 	
 	 
