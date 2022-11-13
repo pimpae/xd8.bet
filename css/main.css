@@ -2443,8 +2443,205 @@ footer .social ul li div{
 .btn-bet-slip:hover{
   color: #FFFFFF;
 }
-
-
+.game-cover{
+  height: 240px;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2 !important;
+  margin-bottom: 15px;
+} 
+.game-cover:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 240px;
+  width: 100%;
+  border-radius: 5px;
+  background: rgba(46, 36, 86, 0.71);
+  z-index: 1 !important;
+}
+.game-cover div{
+  z-index: 4;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+} 
+.game-cover div img{
+  height: 58px;
+  margin-bottom: 10px;
+} 
+.game-cover div h1{
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;  
+  color: #FFD058;
+  font-family: Inter-Bold;
+  text-shadow: 0px 2px 7px
+} 
+.game-cover div h3{
+  text-align: center; 
+  font-size: 14px;
+  line-height: 17px;  
+  color: #fff;
+  font-family: Inter-SemiBold; 
+} 
+.game-cover div h5{
+  text-align: center; 
+  font-size: 12px;
+  line-height: 15px;  
+  color: #fff;
+  font-family: Inter-SemiBold; 
+} 
+.left-bwt{
+  position: absolute;
+  z-index: 4;
+  left: 17px;
+  top: 12px; 
+  font-size: 10px;
+  line-height: 2px;  
+  color: #fff;
+  font-family: Inter-SemiBold; 
+}
+.left-bwt img:nth-child(1){
+  width: 20px;
+  height: 20px;
+  margin-right: 22px;
+} 
+.left-bwt img:nth-child(2){ 
+  height: 14px;
+  margin-right: 10px;
+}
+.tabs-etc{ 
+  margin-bottom: 20px;
+}  
+.tabs-etc .nav-link{ 
+  border: none;
+  font-size: 13px;
+  line-height: 16px; 
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Inter-SemiBold; 
+  transition: .33s all ease-out; 
+} 
+.tabs-etc .nav-link.active{
+  background-color: transparent;
+  border: none;
+  color: #FFD058;
+}
+.tabs-etc .nav-link:hover{
+  background-color: transparent;
+  border: none;
+  color: #FFD058;
+}
+.tabs-etc .nav-tabs {
+  border-bottom: 1px solid #655D87;
+}
+  
+.tabs-etc .nav-tabs .nav-item { 
+  padding-bottom: 15px;
+}
+.tabs-etc .tab-pane{
+  padding-top: 10px;
+}
+.game-type{
+  border-radius: 5px; 
+  position: relative;
+  margin-top: 10px;
+}
+.game-type h3{
+  background: #3B306A;
+  border-radius: 5px; 
+  height: 40px;
+  padding: 12px 10px;
+  font-size: 13px;
+  line-height: 22px;  
+  color: #FFFFFF;
+  font-family: Inter-SemiBold; 
+  margin-bottom: 0px;
+  height: 47px; 
+  cursor: pointer;
+}
+.game-type .box-score{
+  display: none; 
+}
+.game-type.active .box-score{
+  display: flex;
+  align-items: center;
+}
+.game-type.active h3{ 
+  border-radius: 5px 5px 0px 0px;
+}
+.game-type .box-score div{ 
+  background: #534789; 
+  height: 47px; 
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  border-right: 1px solid #3B306A;
+}
+.game-type .box-score div:first-child{
+  border-radius: 0px 0px 0px 5px;
+}
+.game-type .box-score div:last-child{
+  border-radius: 0px 0px 5px 0px; 
+  border-right: 0px solid #3B306A;
+} 
+.game-type.type1 .box-score div{ 
+  text-align: center; 
+  color: #FFFFFF;
+  font-family: Inter-SemiBold; 
+  padding: 7px;
+}
+.game-type.type1 .box-score div h5{ 
+  color: #BBB4DD;
+  margin-bottom: 2px;
+  font-size: 13px;
+  line-height: 16px; 
+}
+.game-type.type1 .box-score div h6{ 
+  font-size: 13px;
+  line-height: 16px; 
+}
+.game-type::after {
+  content: "";
+  top: 12px;
+  position: absolute;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/upx2.png) !important;
+  background-position: center !important;
+  background-size: 24px !important;
+  background-repeat: no-repeat !important;
+} 
+.game-type.active::after { 
+  background: url(../images/upx1.png) !important;
+} 
+.game-type.type2 .box-score div{ 
+  padding-top: 15px;
+}
+.game-type.type2 .box-score div h5{ 
+  color: #BBB4DD;
+  margin-bottom: 2px;
+  font-size: 13px;
+  line-height: 16px; 
+  float: left;
+}
+.game-type.type2 .box-score div h6{ 
+  font-size: 13px;
+  line-height: 16px; 
+  float: right;
+  color: #fff;
+}
 
 
 
@@ -2461,6 +2658,18 @@ footer .social ul li div{
 
 
 @media only screen and (max-width: 991px) { /* MOBILE */  
+  .tabs-etc ul{
+    list-style: none;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .game-cover{
+    height: 166px;
+    padding-top: 20px;
+  }
+  .game-cover:after{
+    height: 166px;
+  }
   .menu-left2 li.active a{
     background: #2F2656 !important;
   }
