@@ -2695,6 +2695,9 @@ footer .social ul li div{
     width: auto !important;
     max-width: 100%;
   }
+  .mo-spin .modal-body{
+    padding: 10px;
+  }
   .tabs-etc ul{
     list-style: none;
     flex-wrap: nowrap;
