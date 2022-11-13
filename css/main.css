@@ -2642,7 +2642,39 @@ footer .social ul li div{
   float: right;
   color: #fff;
 }
-
+.mo-spin .modal-dialog{
+  width: 701px !important;
+  max-width: 701px;
+}
+.btn-spin{
+  width: 157px;
+  height: 52px;  
+  background: #9764FF;
+  box-shadow: 0px 2px 8px rgba(151, 100, 255, 0.58);
+  border-radius: 32.5px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center; 
+  color: #FFFFFF;
+  font-family: Inter-SemiBold;
+} 
+.btn-spin{
+  width: 157px;
+  height: 52px;  
+  background: #9764FF;
+  box-shadow: 0px 2px 8px rgba(151, 100, 255, 0.58);
+  border-radius: 32.5px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center; 
+  color: #FFFFFF;
+  transition: .33s all ease-out;
+  font-family: Inter-SemiBold;
+}
+.btn-spin:hover{
+  background: #BE9DFF;
+  color: #fff;
+}
 
 
 
@@ -2658,6 +2690,11 @@ footer .social ul li div{
 
 
 @media only screen and (max-width: 991px) { /* MOBILE */  
+  
+  .mo-spin .modal-dialog{
+    width: auto !important;
+    max-width: 100%;
+  }
   .tabs-etc ul{
     list-style: none;
     flex-wrap: nowrap;
