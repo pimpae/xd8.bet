@@ -22,6 +22,12 @@
   font-style: normal;
   font-variant:initial;
 }  
+@font-face{
+  font-family: Kanit-Regular;
+  src: url(../fonts/Kanit-Regular.ttf);
+  font-style: normal;
+  font-variant:initial;
+}  
 a:hover{
   text-decoration: none;
 }  
@@ -41,6 +47,9 @@ body{
   background-position:  center top !important;
   background-repeat: no-repeat !important;
   background-size: 100% auto !important;
+}
+.lang-th{
+  font-family: Kanit-Regular !important; 
 }
 /* .bg-cir{
   position: absolute;
@@ -86,6 +95,9 @@ header nav .navbar-nav .nav-item .nav-link{
   color: #FFFFFF;
   transition: .33s all ease-out; 
 } 
+.lang-th header nav .navbar-nav .nav-item .nav-link{
+  font-family: Kanit-Regular !important; 
+}
 header nav .navbar-nav .nav-item .nav-link img{
   margin-right: 10px;
   height: 15px;
@@ -106,6 +118,9 @@ header nav .btn-sign{
   color: #FFFFFF;
   transition: .33s all ease-out;
 } 
+.lang-th header nav .btn-sign{
+  font-family: Kanit-Regular !important; 
+}
 header nav .btn-sign:hover{ 
   background-color: #FFFFFF; 
 } 
@@ -120,6 +135,9 @@ header nav .btn-join{
   background: linear-gradient(180deg, #7646FF 0%, #AE46FF 100%);
   border-radius: 19px;
 } 
+.lang-th header nav .btn-join{
+  font-family: Kanit-Regular !important; 
+}
 header nav .btn-join:hover{ 
   background: linear-gradient(180deg, #AE92FF 0%, #CF92FF 100%);
 }
@@ -199,6 +217,9 @@ header nav .btn-call-center:hover{
   z-index: 2;
   padding-bottom: 5px;
 } 
+.lang-th .box-game1 .game-live h5{
+  font-family: Kanit-Regular !important; 
+}
 .box-game1 .game-live div{
   width: 100%;
 }
@@ -247,6 +268,9 @@ header nav .btn-call-center:hover{
   position: absolute;
   margin-top: 10px;
   z-index: 11 !important;
+}
+.lang-th .game-home h3{
+  font-family: Kanit-Regular !important; 
 }
 .main-home .game-home h3{  
   padding-left: 5px; 
@@ -331,6 +355,9 @@ header nav .btn-call-center:hover{
   line-height: 25px;
   z-index: 101;
   transition: .33s all ease-out;
+}
+.lang-th .view-all{
+  font-family: Kanit-Regular !important; 
 }
 .view-all:hover{ 
   background: #9175C8; 
@@ -2690,8 +2717,35 @@ footer .social ul li div{
 .lang.active{  
   opacity: 1;
 }
-
-
+.nav-lang{
+  position: absolute;
+  top: -8px;
+  left: 100px;
+}
+.nav-lang .btn{
+  color: #fff;
+  font-size: 14px;
+  font-family: Inter-SemiBold;
+}
+.nav-lang .dropdown-item img{
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.nav-lang .dropdown-menu{
+  width: 50px;
+  min-width: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px; 
+  background: #524079;
+}
+.nav-lang .dropdown-item{
+  padding-left: 7px;
+}
+.nav-lang  .dropdown-item.active, .nav-lang .dropdown-item:active { 
+  background-color: transparent !important;
+}
 
 /* transition: .33s all ease-out;  */
 

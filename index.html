@@ -23,12 +23,26 @@
 			</a> 
 			
 			<div class="pc-x">
-				<a class="btn btn-sign mr-1" href="#">SIGN IN</a> 
-				<a class="btn btn-join mr-1" href="#">JOIN NOW</a>
+				<li class="nav-item nav-lang">
+					<div class="dropdown">
+						<button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							TH  
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item lang active" data-lang="1" href="#"><img src="images/TH.jpg" alt=""></a> 
+							<a class="dropdown-item lang" data-lang="2" href="#"><img src="images/EN.jpg" alt=""></a>  
+						</div>
+					</div>
+				</li>
+
+
+				<a class="btn btn-sign mr-1 lang6" href="#">SIGN IN</a> 
+				<a class="btn btn-join mr-1 lang7" href="#">JOIN NOW</a>
 				
-				<a class="btn btn-call-center mr-1" href="#">
+				<a class="btn btn-call-center  " href="#">
 					<img src="images/call-center.png" alt="">
 				</a>
+				
 			</div>
 
 			<div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
@@ -57,10 +71,10 @@
 						<a href="#" class="nav-link lang" data-lang="2" style="background: url(images/EN.jpg);"></a>
 					</li>
 					<li class="nav-item">
-						<button class="btn btn-sign">SIGN IN</button>
+						<button class="btn btn-sign lang6">SIGN IN</button>
 					</li>
 					<li class="nav-item">
-						<a class="btn btn-join" href="#">JOIN NOW</a>
+						<a class="btn btn-join lang7" href="#">JOIN NOW</a>
 					</li>
 					<li class="nav-item">
 						<a class="btn btn-call-center" href="#">
@@ -77,20 +91,21 @@
 	<div class="menu-mb pc-x">
 		<ul>
 			<li>
-				<a  href="slot.html"><img src="images/m-icon1.png" alt=""> ONLINE SLOTS</a>
+				<a  href="slot.html"><img src="images/m-icon1.png" alt=""> <span class="lang1">ONLINE SLOTS</span></a>
 			</li>
 			<li>
-				<a  href="casino.html"><img src="images/m-icon2.png" alt=""> LIVE CASINO</a>
+				<a  href="casino.html"><img src="images/m-icon2.png" alt=""> <span class="lang2">LIVE CASINO</span></a>
 			</li>
 			<li>
-				<a  href="table-game.html"><img src="images/m-icon3.png" alt=""> TABLE GAMES</a>
+				<a  href="table-game.html"><img src="images/m-icon3.png" alt=""> <span class="lang3">TABLE GAMES</span></a>
 			</li>
 			<li>
-				<a  href="sport.html"><img src="images/m-icon4.png" alt=""> SPORT</a>
+				<a  href="sport.html"><img src="images/m-icon4.png" alt=""> <span class="lang4">SPORT</span></a>
 			</li>
 			<li>
-				<a  href="promotion.html"><img src="images/m-icon5.png" alt=""> PROMOTIONS</a>
+				<a  href="promotion.html"><img src="images/m-icon5.png" alt=""> <span class="lang5">PROMOTIONS</span></a>
 			</li> 
+			
 		</ul>
 	</div>
 
@@ -135,7 +150,7 @@
 		<section class="main-home">
             <div class="container">
 				<div class="game-home">
-					<h3 class="bg1">LIVE CASINO</h3>
+					<h3 class="bg1 lang2">LIVE CASINO</h3>
 					<a href="#" class="view-all">View all</a>
 					<ul id="item1" class="box-game1">
 						<li>
@@ -198,7 +213,7 @@
 
 				
 				<div class="game-home">
-					<h3 class="bg2">ONLINE SLOTS</h3>
+					<h3 class="bg2 lang1">ONLINE SLOTS</h3>
 					<a href="#" class="view-all">View all</a>
 					<ul id="item2" class="box-game1 game2">
 						<li>
@@ -260,7 +275,7 @@
 				</div>
 				
 				<div class="game-home">
-					<h3 class="bg3">TABLE GAMES</h3>
+					<h3 class="bg3 lang3">TABLE GAMES</h3>
 					<a href="#" class="view-all">View all</a>
 					<ul id="item3" class="box-game1 game2">
 						<li>
@@ -318,7 +333,7 @@
 				
 
 				<div class="game-home">
-					<h3 class="bg4">GAMES SHOWS</h3>
+					<h3 class="bg4 lang8">GAMES SHOWS</h3>
 					<a href="#" class="view-all">View all</a>
 					<ul id="item4" class="box-game1">
 						<li>
@@ -381,7 +396,7 @@
 
 
 				<div class="game-home">
-					<h3 class="bg5">POPULAR SLOTS</h3>
+					<h3 class="bg5 lang9">POPULAR SLOTS</h3>
 					<a href="#" class="view-all">View all</a>
 					<ul id="item5" class="box-game1">
 						<li>
@@ -445,7 +460,7 @@
 				</div>
 
 				<div class="game-home">
-					<h3 class="bg6">GAME PROVIDERS</h3>
+					<h3 class="bg6 lang10">GAME PROVIDERS</h3>
 					<a href="#" class="view-all">View all</a>
 					<ul id="item6" class="box-game1">
 						<li>
@@ -517,25 +532,25 @@
 			<div class="ftop1">
 				<ul>
 					<li>
-						<a href="slot.html">Online Slots</a>
+						<a href="slot.html" class="lang1">Online Slots</a>
 					</li>
 					<li>
-						<a href="casino.html">Live Casino</a>
+						<a href="casino.html" class="lang2">Live Casino</a>
 					</li>
 					<li>
-						<a href="table-game.html">Table Games</a>
+						<a href="table-game.html" class="lang3">Table Games</a>
 					</li>
 					<li>
-						<a href="sport.html">Sports</a>
+						<a href="sport.html" class="lang4">Sports</a>
 					</li>
 					<li>
-						<a href="#">Online Support</a>
+						<a href="#" class="lang11">Online Support</a>
 					</li>
 					<li>
-						<a href="#">Terms and Conditions</a>
+						<a href="#" class="lang12">Terms and Conditions</a>
 					</li>
 					<li>
-						<a href="#">About Us</a>
+						<a href="#" class="lang13">About Us</a>
 					</li>
 				</ul>
 			</div>
@@ -571,8 +586,8 @@
 
 			<div class="col text-center">
 				<img src="images/logo2.png" alt="logo" class="d-block m-auto img-fluid mt-4 mb-4">
-				<h1>THE BEST ONLINE GAMBLING SITE IN ASIA</h1>
-				<h3>XD8.BET Online Slots, Live Casinos, Football Betting, Football <br> Steps, more than 60 matches per week​</h3>
+				<h1 class="lang14">THE BEST ONLINE GAMBLING SITE IN ASIA</h1>
+				<h3 class="lang15">XD8.BET Online Slots, Live Casinos, Football Betting, Football Steps, more than 60 matches per week​</h3>
 				<div class="social">
 					<ul>
 						<li>
@@ -718,9 +733,13 @@
 			$(this).addClass("active");
 			if($(this).attr("data-lang")==1){
 				lang_th(); 
+				$("body").addClass("lang-th");  
+				$(".nav-lang .btn").text("TH");   
 			}
 			else{
 				lang_en(); 
+				$("body").removeClass("lang-th");  
+				$(".nav-lang .btn").text("EN");   
 			} 
 		});
 
