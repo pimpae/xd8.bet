@@ -2675,6 +2675,21 @@ footer .social ul li div{
   background: #BE9DFF;
   color: #fff;
 }
+.lang{ 
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: .5;
+  margin-top: 5px;
+}
+.lang.active{  
+  opacity: 1;
+}
 
 
 
