@@ -14,17 +14,30 @@
  
 	
 </head>
-<body>
+<body class="lang-th">
 
 	<header>
 		<nav class="navbar navbar-light navbar-expand-xl bg-faded justify-content-center">
 			<a href="index.html" class="navbar-brand d-flex w-25 mr-auto">
 				<img src="images/logo.png" alt="">
 			</a> 
+
+			
 			
 			<div class="pc-x">
-				<a class="btn btn-sign mr-1" href="#">SIGN IN</a> 
-				<a class="btn btn-join mr-1" href="#">JOIN NOW</a>
+				<li class="nav-item nav-lang">
+					<div class="dropdown">
+						<button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							TH  
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item lang active" data-lang="1" href="#"><img src="images/TH.jpg" alt=""></a> 
+							<a class="dropdown-item lang" data-lang="2" href="#"><img src="images/EN.jpg" alt=""></a>  
+						</div>
+					</div>
+				</li>
+				<a class="btn btn-sign mr-1 lang6" href="#">SIGN IN</a> 
+				<a class="btn btn-join mr-1 lang7" href="#">JOIN NOW</a>
 				
 				<a class="btn btn-call-center mr-1" href="#">
 					<img src="images/call-center.png" alt="">
@@ -34,27 +47,33 @@
 			<div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
 				<ul class="navbar-nav w-100 justify-content-center">
 					<li class="nav-item">
-						<a class="nav-link" href="slot.html"><img src="images/m-icon1.png" alt=""> ONLINE SLOTS</a>
+						<a class="nav-link lang1" href="slot.html"><img src="images/m-icon1.png" alt=""> ONLINE SLOTS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="casino.html"><img src="images/m-icon2.png" alt=""> LIVE CASINO</a>
-					</li>
-					<li class="nav-item \">
-						<a class="nav-link" href="table-game.html"><img src="images/m-icon3.png" alt=""> TABLE GAMES</a>
+						<a class="nav-link lang2" href="casino.html"><img src="images/m-icon2-active.png" alt=""> LIVE CASINO</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="sport.html"><img src="images/m-icon4.png" alt=""> SPORT</a>
+						<a class="nav-link lang3" href="table-game.html"><img src="images/m-icon3.png" alt=""> TABLE GAMES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link lang4" href="sport.html"><img src="images/m-icon4.png" alt=""> SPORT</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="promotion.html"><img src="images/m-icon5-active.png" alt=""> PROMOTIONS</a>
+						<a class="nav-link lang5" href="promotion.html"><img src="images/m-icon5-active.png" alt=""> PROMOTIONS</a>
 					</li> 
 				</ul>
 				<ul class="nav navbar-nav ml-auto w-50 justify-content-end">
-					<li class="nav-item">
-						<a class="btn btn-sign" href="#">SIGN IN</a>
+					<li class="nav-item mr-1 ml-1">
+						<a href="#" class="nav-link lang active" data-lang="1" style="background: url(images/TH.jpg);"></a>
+					</li>
+					<li class="nav-item mr-1 ml-1">
+						<a href="#" class="nav-link lang" data-lang="2" style="background: url(images/EN.jpg);"></a>
 					</li>
 					<li class="nav-item">
-						<a class="btn btn-join" href="#">JOIN NOW</a>
+						<button class="btn btn-sign lang6">SIGN IN</button>
+					</li>
+					<li class="nav-item">
+						<a class="btn btn-join lang7" href="#">JOIN NOW</a>
 					</li>
 					<li class="nav-item">
 						<a class="btn btn-call-center" href="#">
@@ -68,20 +87,20 @@
 	<div class="menu-mb pc-x">
 		<ul>
 			<li>
-				<a href="slot.html"><img src="images/m-icon1.png" alt=""> ONLINE SLOTS</a>
+				<a  href="slot.html"><img src="images/m-icon1.png" alt=""> <span class="lang1">ONLINE SLOTS</span></a>
 			</li>
 			<li>
-				<a href="casino.html"><img src="images/m-icon2.png" alt=""> LIVE CASINO</a>
+				<a  href="casino.html"><img src="images/m-icon2.png" alt=""> <span class="lang2">LIVE CASINO</span></a>
 			</li>
 			<li>
-				<a href="table-game.html"><img src="images/m-icon3-active.png" alt=""> TABLE GAMES</a>
+				<a  href="table-game.html"><img src="images/m-icon3.png" alt=""> <span class="lang3">TABLE GAMES</span></a>
 			</li>
 			<li>
-				<a href="sport.html"><img src="images/m-icon4.png" alt=""> SPORT</a>
-			</li> 
+				<a  href="sport.html"><img src="images/m-icon4.png" alt=""> <span class="lang4">SPORT</span></a>
+			</li>
 			<li class="active">
-				<a href="promotion.html"><img src="images/m-icon5-active.png" alt=""> PROMOTIONS</a>
-			</li> 
+				<a  href="promotion.html"><img src="images/m-icon5-active.png" alt=""> <span class="lang5">PROMOTIONS</span></a>
+			</li>  
 		</ul>
 	</div>
 
@@ -331,14 +350,14 @@
 			<div class="modal-content"> 
 				<div class="modal-body">
 					<img src="images/logo.png" alt="logo" class="d-block m-auto img-fluid logo">
-					<h2>คาสิโนออนไลน์ เว็บอันดับ 1 ของเมืองไทย</h2>
+					<h2 class="lang16">คาสิโนออนไลน์ เว็บอันดับ 1 ของเมืองไทย</h2>
 					<div class="main-form">
 						<ul class="nav nav-tabs" role="tablist">
 							<li class="nav-item">
-								<a class="nav-link active tab1s" href="#tab-signin" role="tab" data-toggle="tab">SIGN IN</a>
+								<a class="nav-link active tab1s lang6" href="#tab-signin" role="tab" data-toggle="tab">SIGN IN</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link tab2s" href="#tab-join" role="tab" data-toggle="tab">JOIN NOW</a>
+								<a class="nav-link tab2s lang7" href="#tab-join" role="tab" data-toggle="tab">JOIN NOW</a>
 							</li> 
 						</ul> 
 
@@ -346,19 +365,19 @@
 							<div role="tabpanel" class="tab-pane fade show active" id="tab-signin">
 								<form>
 									<div class="form-group">
-										<label>User Account or Phone Number:</label>
-										<input type="text" name="username"  class="form-control" placeholder="write your user account or phone number">
+										<label class="lang17">User Account or Phone Number:</label>
+										<input type="text" name="username"  class="form-control lang26" placeholder="write your user account or phone number">
 									</div>
 									<div class="form-group">
-										<label>Password / PIN</label>
-										<input type="password" name="password" id="password" class="form-control" placeholder="write your password or pin code">
+										<label class="lang18">Password / PIN</label>
+										<input type="password" name="password" id="password" class="form-control lang27" placeholder="write your password or pin code">
 										<span toggle="#password-field" class="far fa-fw fa-eye-slash field-icon toggle-password"></span>
 									</div>
 									<div class="form-group text-right">
-										<label>Forgot your password?</label> 
+										<label class="lang19">Forgot your password?</label> 
 									</div>
 									<div class="form-group">
-										<button class="btn">SIGN IN</button>
+										<button class="btn lang6">SIGN IN</button>
 									</div>
 
 								</form>
@@ -366,37 +385,37 @@
 							<div role="tabpanel" class="tab-pane fade" id="tab-join">
 								<form>
 									<div class="form-group">
-										<label>Account Name</label>
-										<input type="text" name="username"  class="form-control" placeholder="write your account name">
+										<label class="lang17">Account Name</label>
+										<input type="text" name="username"  class="form-control lang28" placeholder="write your account name">
 									</div>
 									<div class="form-group">
-										<label>Phone Number</label>
-										<input type="password" name="password" id="password" class="form-control" placeholder="write your phone number">
+										<label class="lang18">Phone Number</label>
+										<input type="password" name="password" id="password" class="form-control lang29" placeholder="write your phone number">
 										<span toggle="#password-field" class="far fa-fw fa-eye-slash field-icon toggle-password"></span>
 									</div>
 									<div class="form-group row">
 										<div class="col-6">
-											<label>Password</label>
-											<input type="text" name="username"  class="form-control" placeholder="write your password or pin code">
+											<label class="lang19">Password</label>
+											<input type="text" name="username"  class="form-control lang30" placeholder="write your password or pin code">
 										</div>
 										<div class="col-6">
-											<label>Repeat Password</label>
-											<input type="text" name="username"  class="form-control" placeholder="repeat your password">
+											<label class="lang20">Repeat Password</label>
+											<input type="text" name="username"  class="form-control lang31" placeholder="repeat your password">
 										</div>
 									</div>
 									<div class="form-group row">
 										<div class="col-6">
-											<label>OTR</label>
-											<input type="text" name="username"  class="form-control" placeholder="OTR">
+											<label class="lang21">OTR</label>
+											<input type="text" name="username"  class="form-control lang32" placeholder="OTR">
 										</div>
 										<div class="col-6">
-											<label>PIN Code</label>
-											<input type="text" name="username"  class="form-control" placeholder="write your pin code">
+											<label class="lang22">PIN Code</label>
+											<input type="text" name="username"  class="form-control lang33" placeholder="write your pin code">
 										</div>
 									</div>
 									<br>
 									<div class="form-group">
-										<button class="btn">JOIN NOW</button>
+										<button class="btn lang7">JOIN NOW</button>
 									</div>
 
 								</form>
@@ -414,8 +433,29 @@
 
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script>
+	<script src="js/language.js"></script> 
 
 	<script>
+
+		$(document).ready(function() {  
+			lang_th(); 
+		});
+		$(".lang").click(function (event) {   
+			$(".lang").removeClass("active");  
+			$(this).addClass("active");
+			if($(this).attr("data-lang")==1){
+				lang_th(); 
+				$("body").addClass("lang-th");  
+				$(".nav-lang .btn").text("TH");   
+			}
+			else{
+				lang_en(); 
+				$("body").removeClass("lang-th");  
+				$(".nav-lang .btn").text("EN");   
+			} 
+		});
+
+
 		$('.btn-sign').on( "click", function() {
 			$('.main-form .nav-tabs .nav-item .nav-link').removeClass('active');
 			$('.main-form .nav-tabs .nav-item .tab1s').addClass('active');  

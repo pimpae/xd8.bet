@@ -14,7 +14,7 @@
  
 	
 </head>
-<body>
+<body class="lang-th">
 
 	<header>
 		<nav class="navbar navbar-light navbar-expand-xl bg-faded justify-content-center">
@@ -23,9 +23,19 @@
 			</a> 
 			
 			<div class="pc-x">
-				<a class="btn btn-sign mr-1" href="#">SIGN IN</a> 
-				<a class="btn btn-join mr-1" href="#">JOIN NOW</a>
-				
+				<li class="nav-item nav-lang">
+					<div class="dropdown">
+						<button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							TH  
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item lang active" data-lang="1" href="#"><img src="images/TH.jpg" alt=""></a> 
+							<a class="dropdown-item lang" data-lang="2" href="#"><img src="images/EN.jpg" alt=""></a>  
+						</div>
+					</div>
+				</li>
+				<a class="btn btn-sign mr-1 lang6" href="#">SIGN IN</a> 
+				<a class="btn btn-join mr-1 lang7" href="#">JOIN NOW</a>
 				<a class="btn btn-call-center mr-1" href="#">
 					<img src="images/call-center.png" alt="">
 				</a>
@@ -34,27 +44,33 @@
 			<div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
 				<ul class="navbar-nav w-100 justify-content-center">
 					<li class="nav-item active">
-						<a class="nav-link" href="slot.html"><img src="images/m-icon1-active.png" alt=""> ONLINE SLOTS</a>
+						<a class="nav-link lang1" href="slot.html"><img src="images/m-icon1-active.png" alt=""> ONLINE SLOTS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="casino.html"><img src="images/m-icon2.png" alt=""> LIVE CASINO</a>
+						<a class="nav-link lang2" href="casino.html"><img src="images/m-icon2-active.png" alt=""> LIVE CASINO</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="table-game.html"><img src="images/m-icon3.png" alt=""> TABLE GAMES</a>
+						<a class="nav-link lang3" href="table-game.html"><img src="images/m-icon3.png" alt=""> TABLE GAMES</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="sport.html"><img src="images/m-icon4.png" alt=""> SPORT</a>
+						<a class="nav-link lang4" href="sport.html"><img src="images/m-icon4.png" alt=""> SPORT</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="promotion.html"><img src="images/m-icon5.png" alt=""> PROMOTIONS</a>
+					<li class="nav-item ">
+						<a class="nav-link lang5" href="promotion.html"><img src="images/m-icon5.png" alt=""> PROMOTIONS</a>
 					</li> 
 				</ul>
 				<ul class="nav navbar-nav ml-auto w-50 justify-content-end">
-					<li class="nav-item">
-						<a class="btn btn-sign" href="#">SIGN IN</a>
+					<li class="nav-item mr-1 ml-1">
+						<a href="#" class="nav-link lang active" data-lang="1" style="background: url(images/TH.jpg);"></a>
+					</li>
+					<li class="nav-item mr-1 ml-1">
+						<a href="#" class="nav-link lang" data-lang="2" style="background: url(images/EN.jpg);"></a>
 					</li>
 					<li class="nav-item">
-						<a class="btn btn-join" href="#">JOIN NOW</a>
+						<button class="btn btn-sign lang6">SIGN IN</button>
+					</li>
+					<li class="nav-item">
+						<a class="btn btn-join lang7" href="#">JOIN NOW</a>
 					</li>
 					<li class="nav-item">
 						<a class="btn btn-call-center" href="#">
@@ -64,24 +80,25 @@
 				</ul> 
 			</div>
 		</nav>
-	</header>
+	</header> 
+
 	<div class="menu-mb pc-x">
 		<ul>
 			<li class="active">
-				<a href="slot.html"><img src="images/m-icon1-active.png" alt=""> ONLINE SLOTS</a>
+				<a  href="slot.html"><img src="images/m-icon1-active.png" alt=""> <span class="lang1">ONLINE SLOTS</span></a>
 			</li>
 			<li>
-				<a href="casino.html"><img src="images/m-icon2.png" alt=""> LIVE CASINO</a>
+				<a  href="casino.html"><img src="images/m-icon2.png" alt=""> <span class="lang2">LIVE CASINO</span></a>
 			</li>
 			<li>
-				<a href="table-game.html"><img src="images/m-icon3.png" alt=""> TABLE GAMES</a>
+				<a  href="table-game.html"><img src="images/m-icon3.png" alt=""> <span class="lang3">TABLE GAMES</span></a>
 			</li>
 			<li>
-				<a href="sport.html"><img src="images/m-icon4.png" alt=""> SPORT</a>
-			</li> 
-			<li>
-				<a href="promotion.html"><img src="images/m-icon5.png" alt=""> PROMOTIONS</a>
-			</li> 
+				<a  href="sport.html"><img src="images/m-icon4.png" alt=""> <span class="lang4">SPORT</span></a>
+			</li>
+			<li >
+				<a  href="promotion.html"><img src="images/m-icon5.png" alt=""> <span class="lang5">PROMOTIONS</span></a>
+			</li>  
 		</ul>
 	</div>
 
@@ -1098,8 +1115,27 @@
 
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script>
+	<script src="js/language.js"></script> 
 
 	<script>
+
+		$(document).ready(function() {  
+			lang_th(); 
+		});
+		$(".lang").click(function (event) {   
+			$(".lang").removeClass("active");  
+			$(this).addClass("active");
+			if($(this).attr("data-lang")==1){
+				lang_th(); 
+				$("body").addClass("lang-th");  
+				$(".nav-lang .btn").text("TH");   
+			}
+			else{
+				lang_en(); 
+				$("body").removeClass("lang-th");  
+				$(".nav-lang .btn").text("EN");   
+			} 
+		});
 		$('.btn-sign').on( "click", function() {
 			$('.main-form .nav-tabs .nav-item .nav-link').removeClass('active');
 			$('.main-form .nav-tabs .nav-item .tab1s').addClass('active');  
