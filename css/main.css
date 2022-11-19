@@ -406,6 +406,9 @@ footer .ftop1 ul li a{
   color: #BCAFD2;
   transition: .33s all ease-out;
 }
+.lang-th footer .ftop1 ul li a{
+  font-family: Kanit-Regular !important; 
+}
 footer .ftop1 ul li a:hover{ 
   color: #9175C8;
 }
@@ -431,6 +434,15 @@ footer h1{
   color: #FFD058;
   margin-top: 15px;
 } 
+.lang-th footer h1{
+  font-family: Kanit-Regular !important; 
+}
+.lang-th footer h3{
+  font-family: Kanit-Regular !important; 
+}
+.lang-th footer h6{
+  font-family: Kanit-Regular !important; 
+}
 footer h3{ 
   font-family: Inter-SemiBold;
   font-size: 12px;

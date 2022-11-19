@@ -14,6 +14,24 @@ function lang_th() {
     $('.lang13').text("เกี่ยวกับเรา");  
     $('.lang14').text("เว็บเกมออนไลน์ที่ดีที่สุดในเอเชีย");  
     $('.lang15').text("XD8.BET สล็อตออนไลน์ คาสิโนสด พนันบอล บอลสเต็ป <br> มากกว่า 60 แมทช์ต่อสัปดาห์");  
+    $('.lang16').text("คาสิโนออนไลน์ เว็บอันดับ 1 ของเมืองไทย");  
+    $('.lang17').text("บัญชีผู้ใช้  หรือ เบอร์โทรศัพท์");  
+    $('.lang18').text("รหัสผ่าน / PIN");  
+    $('.lang19').text("ลืมรหัสผ่าน?");  
+    $('.lang20').text("ชื่อ-นามสกุล");  
+    $('.lang21').text("เบอร์โทรศัพท์");  
+    $('.lang22').text("รหัสผ่าน");  
+    $('.lang23').text("ยืนยันรหัสผ่าน");  
+    $('.lang24').text("OTP");  
+    $('.lang25').text("PIN Code");  
+    $('.lang26').attr("placeholder", "กรอกชื่อผู้ใช้หรือเบอร์โทรศัพท์");
+    $('.lang27').attr("placeholder", "กรอกรหัสผ่านหรือพินโค้ด");
+    $('.lang28').attr("placeholder", "กรอกชื่อและนามสกุล");
+    $('.lang29').attr("placeholder", "กรอกเบอร์โทรศัพท์");
+    $('.lang30').attr("placeholder", "กรอกรหัสผ่าน");
+    $('.lang31').attr("placeholder", "ยืนยันรหัสผ่าน");
+    $('.lang32').attr("placeholder", "OTP");
+    $('.lang33').attr("placeholder", "ตั้งรหัสพินโค้ด 4 หลัก");  
 }
 
 function lang_en() { 
@@ -32,4 +50,23 @@ function lang_en() {
     $('.lang13').text("About Us");  
     $('.lang14').text("THE BEST ONLINE GAMBLING SITE IN ASIA");  
     $('.lang15').text("XD8.BET Online Slots, Live Casinos, Football Betting, Football Steps, more than 60 matches per week");  
+    $('.lang16').text("XD8.BET Online Slots, Live Casinos, Football Betting Casinos Thailand");  
+    $('.lang17').text("User Account or Phone Number:");  
+    $('.lang18').text("Password / PIN");  
+    $('.lang19').text("Forgot your password?");  
+    $('.lang20').text("Account Name");  
+    $('.lang21').text("Phone Number");  
+    $('.lang22').text("Password");  
+    $('.lang23').text("Repeat Password");  
+    $('.lang24').text("OTP");  
+    $('.lang25').text("PIN Code");  
+    $('.lang26').attr("placeholder", "write your user account or phone number");
+    $('.lang27').attr("placeholder", "write your password or pin code");
+    $('.lang28').attr("placeholder", "write your account name");
+    $('.lang29').attr("placeholder", "write your phone number");
+    $('.lang30').attr("placeholder", "write your password or pin code");
+    $('.lang31').attr("placeholder", "repeat your password");
+    $('.lang32').attr("placeholder", "OTP");
+    $('.lang33').attr("placeholder", "write your pin code"); 
+
 }
