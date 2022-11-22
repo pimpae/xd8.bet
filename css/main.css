@@ -507,6 +507,9 @@ footer .social ul li div{
   line-height: 17px;
   color: #fff;
 }
+.lang-th .menu-mb ul li a{  
+  font-family: Kanit-Regular !important;  
+}
 .menu-mb ul li.active a{   
   color: #FFD058;
 }
@@ -525,6 +528,9 @@ footer .social ul li div{
   padding-top: 10px;
   padding-right: 90px;
 }
+.lang-th .btn-wallet{  
+  font-family: Kanit-Regular !important;  
+}
 .btn-wallet div{
   width: 80px;
   height: 38px; 
@@ -541,6 +547,9 @@ footer .social ul li div{
   text-align: center;
   padding-top: 12px;
 }
+.lang-th .btn-wallet div{  
+  font-family: Kanit-Regular !important;  
+}
 .btn-wallet:hover{ 
   color: #fff; 
 }
@@ -552,6 +561,9 @@ footer .social ul li div{
   color: #FFFFFF;
   background: linear-gradient(180deg, #9684FF 0%, #D485FF 100%);
   border-radius: 19px;
+} 
+.lang-th .btn-execw{  
+  font-family: Kanit-Regular !important;  
 }
 .btn-execw + .dropdown-menu{
   background: linear-gradient(180deg, #5325B6 0%, #806AFF 100%);
@@ -563,6 +575,9 @@ footer .social ul li div{
   line-height: 12px; 
   color: #D7CCFF;
   font-family: Inter-SemiBold;   
+}
+.lang-th .btn-execw + .dropdown-menu .dropdown-item{  
+  font-family: Kanit-Regular !important;  
 }
 .btn-execw + .dropdown-menu .dropdown-item:hover{
   background-color: #9086FF; 
@@ -601,6 +616,9 @@ footer .social ul li div{
   color: #D9CDFF;
   text-align: center;
   transition: .33s all ease-out;
+}
+.lang-th .slot-tabs .nav .nav-item a{  
+  font-family: Kanit-Regular !important;  
 }
 .slot-tabs .nav .nav-item a.active{ 
   background-color: #8B69FF;
@@ -689,6 +707,9 @@ footer .social ul li div{
   width: 142px;
   height: 34px;
 }
+.lang-th .btn-providers{  
+  font-family: Kanit-Regular !important;  
+}
 .btn-providers + .dropdown-menu {
   width: 142px !important; 
   min-width: unset;
@@ -721,6 +742,9 @@ footer .social ul li div{
   color: #E0D8FF; 
   padding: 5px 15px;
 }
+.lang-th .btn-providers + .dropdown-menu .dropdown-item{  
+  font-family: Kanit-Regular !important;  
+}
 .btn-providers + .dropdown-menu .dropdown-item:hover{  
   color: #8B69FF;  
 }
@@ -744,6 +768,9 @@ footer .social ul li div{
   margin-top: 25px;
   font-family: Inter-SemiBold; 
 }
+.lang-th .btn-view-more{  
+  font-family: Kanit-Regular !important;  
+}
 .btn-view-more:hover{
   border: 1px solid #8B69FF; 
   color: #FFFFFF; 
@@ -760,6 +787,9 @@ footer .social ul li div{
   line-height: 44px; 
   color: #FFFFFF;
 } 
+.lang-th .promotion-page h1{  
+  font-family: Kanit-Regular !important;  
+}
 .promotion-page h3{ 
   font-family: Inter-Bold; 
   text-align: center;
@@ -767,6 +797,9 @@ footer .social ul li div{
   line-height: 19px; 
   color: #FFD058; 
   margin-bottom: 30px;
+}
+.lang-th .promotion-page h1{  
+  font-family: Kanit-Regular !important;  
 }
 .promotion-page img{
   height: 189px;
@@ -795,6 +828,10 @@ footer .social ul li div{
   margin-bottom: 40px;
 }
 
+.lang-th .promotion-main h3{  
+  font-family: Kanit-Regular !important;  
+}
+
 .promotion-main h4.h4x{ 
   font-family: Inter-SemiBold; 
   font-size: 18px;
@@ -803,6 +840,10 @@ footer .social ul li div{
   text-align: center; 
   color: #FFFFFF;
 } 
+
+.lang-th .promotion-main h4.h4x{  
+  font-family: Kanit-Regular !important;  
+}
 .promotion-main h5{ 
   font-family: Inter-Bold; 
   text-align: center;
@@ -813,6 +854,9 @@ footer .social ul li div{
   position: relative;
   margin-bottom: 20px;
 } 
+.lang-th .promotion-main h5{  
+  font-family: Kanit-Regular !important;  
+}
 .promotion-main h4.h4x::after{ 
   content: "";
   position: absolute;
@@ -847,6 +891,9 @@ footer .social ul li div{
   color: #FFFFFF;
   position: relative;
 } 
+.lang-th .promotion-main ul.list1 li div:nth-child(1){  
+  font-family: Kanit-Regular !important;  
+}
 .promotion-main ul.list1 li div:nth-child(1) img{  
   position: absolute;
   left: 0;
@@ -862,6 +909,9 @@ footer .social ul li div{
   font-family: Inter-Regular;
   color: #FFFFFF;
 } 
+.lang-th .promotion-main ul.list1 li div:nth-child(2){  
+  font-family: Kanit-Regular !important;  
+}
 .promotion-main ul.list1 li:nth-child(1) div:nth-child(1){  
   border-top-left-radius: 10px;
 } 
@@ -890,6 +940,9 @@ footer .social ul li div{
   font-family: Inter-Regular;
   color: #FFFFFF;
   margin-top: 15px;
+}
+.lang-th .promotion-main ul.list-text li{  
+  font-family: Kanit-Regular !important;  
 }
 .promotion-main ul.list-text li:after{ 
   content: "";
@@ -920,6 +973,9 @@ footer .social ul li div{
   color: #FFFFFF;
   font-family: Inter-SemiBold; 
 } 
+.lang-th .promotion-main ul.list2 li div{  
+  font-family: Kanit-Regular !important;  
+}
 .promotion-main ul.list2 li:nth-child(1) div{ 
   width: 517px;
   border-top-left-radius: 10px;
@@ -930,6 +986,9 @@ footer .social ul li div{
   color: #FFFFFF;
   font-family: Inter-Bold; 
 } 
+.lang-th .promotion-main ul.list2 li:nth-child(1) div{  
+  font-family: Kanit-Regular !important;  
+}
 .promotion-main ul.list2 li:last-child div{ 
   width: 517px;
   border-bottom-left-radius: 10px;
@@ -940,6 +999,9 @@ footer .social ul li div{
   color: #FFFFFF;
   font-family: Inter-SemiBold; 
 } 
+.lang-th .promotion-main ul.list2 li:last-child div{  
+  font-family: Kanit-Regular !important;  
+}
 
 .promotion-main ul.list2 li:nth-child(2) div{ 
   font-size: 16px;
@@ -948,6 +1010,9 @@ footer .social ul li div{
   color: #FFFFFF;
   font-family: Inter-Bold; 
 }  
+.lang-th .promotion-main ul.list2 li:nth-child(2) div{  
+  font-family: Kanit-Regular !important;  
+}
 .promotion-main .step{ 
   height: 113px;
   padding: 20px;
@@ -981,12 +1046,18 @@ footer .social ul li div{
   color: #FFD058;
   margin-bottom: 15px;
 } 
+.lang-th .promotion-step h6{  
+  font-family: Kanit-Regular !important;  
+}
 .promotion-step p{
   font-family: Inter-Regular; 
   font-size: 14px;
   line-height: 17px; 
   text-align: center; 
   color: #FFFFFF; 
+}
+.lang-th .promotion-step p{  
+  font-family: Kanit-Regular !important;  
 }
 .promotion-main h5.h5x{
   font-family: Inter-Regular; 
@@ -1040,6 +1111,9 @@ footer .social ul li div{
   margin-bottom: 10px;
   margin-top: 0px;
 }
+.lang-th .rank-box .rank-m div h3{  
+  font-family: Kanit-Regular !important;  
+}
 .rank-box .rank-m div h4{ 
   font-family: Inter-SemiBold; 
   font-size: 14px;
@@ -1047,6 +1121,9 @@ footer .social ul li div{
   color: #fff;
   margin-bottom: 10px;
   margin-top: 0px;
+}
+.lang-th .rank-box .rank-m div h4{  
+  font-family: Kanit-Regular !important;  
 }
 .rank-box .rank-m div h5{ 
   font-family: Inter-SemiBold; 
@@ -1056,6 +1133,9 @@ footer .social ul li div{
   margin-bottom: 10px;
   margin-top: 0px;
 } 
+.lang-th .rank-box .rank-m div h5{  
+  font-family: Kanit-Regular !important;  
+}
 .tb-rank-list{ 
   border-radius: 10px; 
   background: #493879; 
@@ -1079,6 +1159,9 @@ footer .social ul li div{
   font-family: Inter-SemiBold;  
   color: #FFFFFF;
 }
+.lang-th .tb-rank-list .table thead th {  
+  font-family: Kanit-Regular !important;  
+}
 .tb-rank-list .table tbody td {
   padding-left: 0px;
   padding-right: 0px;
@@ -1089,6 +1172,9 @@ footer .social ul li div{
   color: #C0B6DB;
   font-family: Inter-Regular; 
   vertical-align: middle;
+}
+.lang-th .tb-rank-list .table tbody td{  
+  font-family: Kanit-Regular !important;  
 }
 .modal-signin .modal-dialog{
   width: 431px;
@@ -1112,6 +1198,9 @@ footer .social ul li div{
   margin-top: 15px;
   text-align: center;
 } 
+.lang-th .modal-signin h2{  
+  font-family: Kanit-Regular !important;  
+}
 .modal-signin h4{ 
   font-family: Inter-SemiBold; 
   font-size: 16px;
@@ -1121,6 +1210,9 @@ footer .social ul li div{
   margin-top: 15px;
   text-align: center;
 } 
+.lang-th .modal-signin h4{  
+  font-family: Kanit-Regular !important;  
+}
 .modal-signin p{ 
   font-family: Inter-SemiBold;  
   font-size: 13px;
@@ -1128,6 +1220,9 @@ footer .social ul li div{
   text-align: center; 
   color: #FFFFFF;
 } 
+.lang-th .modal-signin p{  
+  font-family: Kanit-Regular !important;  
+}
 
 .modal-signin .modal-body{
   overflow: hidden;
@@ -1175,6 +1270,9 @@ footer .social ul li div{
   text-align: center;
   font-family: Inter-SemiBold; 
 }
+.lang-th .main-form .nav-tabs .nav-item .nav-link{  
+  font-family: Kanit-Regular !important;  
+}
 .main-form .nav-tabs .nav-item .nav-link.active{ 
   background: #8460FF; 
   border: none;
@@ -1192,10 +1290,16 @@ footer .social ul li div{
   line-height: 17px; 
   color: #FFFFFF;
 }
+.lang-th .main-form form label{  
+  font-family: Kanit-Regular !important;  
+}
 .main-form form input::placeholder{ 
   font-family: Inter-SemiBold; 
   font-size: 10px; 
   color: #D9CDFF;  
+}
+.lang-th .main-form form input::placeholder{  
+  font-family: Kanit-Regular !important;  
 }
 .main-form form input{ 
   height: 48px; 
@@ -1232,6 +1336,9 @@ footer .social ul li div{
   font-family: Inter-Bold;  
   transition: .33s all ease-out;
 }
+.lang-th .main-form form .btn{  
+  font-family: Kanit-Regular !important;  
+}
 .main-form form .btn:hover{   
   background: #7056C3; 
   color: #FFFFFF; 
@@ -1257,6 +1364,9 @@ footer .social ul li div{
   color: #E2D8FC;
   font-family: Inter-Regular;
 }
+.lang-th .media-menu .profile h6{  
+  font-family: Kanit-Regular !important;  
+}
 .media-menu .profile h2{
   font-size: 13px;
   line-height: 16px; 
@@ -1264,11 +1374,17 @@ footer .social ul li div{
   font-family: Inter-Bold;  
   margin-bottom: 24px;
 }
+.lang-th .media-menu .profile h2{  
+  font-family: Kanit-Regular !important;  
+}
 .media-menu .profile h3{
   font-size: 13px;
   line-height: 16px; 
   color: #E2D8FC;
   font-family: Inter-Regular;
+}
+.lang-th .media-menu .profile h3{  
+  font-family: Kanit-Regular !important;  
 }
 .media-menu .profile h1{
   font-size: 18px;
@@ -1278,6 +1394,9 @@ footer .social ul li div{
   padding-left: 24px;
   position: relative;
   margin-bottom: 20px;
+}
+.lang-th .media-menu .profile h1{  
+  font-family: Kanit-Regular !important;  
 }
 .media-menu .profile h1 img{
   position: absolute;
@@ -1297,6 +1416,9 @@ footer .social ul li div{
   font-size: 12px;
   line-height: 15px;
   font-family: Inter-Bold;
+}
+.lang-th .media-menu .profile .btn{  
+  font-family: Kanit-Regular !important;  
 }
 .media-menu .profile .btn:hover{
   background: #9A84FF;
@@ -1346,6 +1468,9 @@ footer .social ul li div{
   width: 100%;
   display: block;
 }
+.lang-th .menu-listx li a{  
+  font-family: Kanit-Regular !important;  
+}
 .menu-listx li:hover a{
   color: #FFFFFF;
 }
@@ -1361,6 +1486,9 @@ footer .social ul li div{
   font-family: Inter-SemiBold; 
   margin-bottom: 50px;
   position: relative;
+}
+.lang-th .account-form h2{  
+  font-family: Kanit-Regular !important;  
 }
 .account-form h2 div{ 
   width: 40px;
@@ -1380,6 +1508,9 @@ footer .social ul li div{
   color: #FFFFFF;
   position: relative;
   margin-bottom: 25px;
+}
+.lang-th .account-form h3{  
+  font-family: Kanit-Regular !important;  
 }
 .account-form h3::after{ 
   content: "";
@@ -1407,6 +1538,9 @@ footer .social ul li div{
   font-family: Inter-SemiBold;  
   color: #FFFFFF;
 }
+.lang-th .account-form form label{  
+  font-family: Kanit-Regular !important;  
+}
 .account-form form input{  
   height: 36px; 
   background: #2F2449;
@@ -1417,6 +1551,9 @@ footer .social ul li div{
   color: #FFFFFF;
   font-family: Inter-SemiBold;   
 } 
+.lang-th .account-form form input{  
+  font-family: Kanit-Regular !important;  
+}
 .account-form form input:focus{   
   background: #2F2449; 
   outline: none;
@@ -1425,6 +1562,9 @@ footer .social ul li div{
   line-height: 15px; 
   color: #FFFFFF;
   font-family: Inter-SemiBold;   
+}
+.lang-th .account-form form input:focus{  
+  font-family: Kanit-Regular !important;  
 }
 .menu-sli{
   width: 32px;
@@ -1465,6 +1605,9 @@ footer .social ul li div{
   color: #FFFFFF;
   font-family: Inter-SemiBold
 }
+.lang-th .btn-submit{  
+  font-family: Kanit-Regular !important;  
+}
 
 
 
@@ -1487,6 +1630,10 @@ footer .social ul li div{
   color: #FFFFFF;
   font-family: Inter-SemiBold
 }
+.lang-th .bootstrap-select.select-type .dropdown-menu.inner{  
+  font-family: Kanit-Regular !important;  
+}
+
 .bootstrap-select.select-type .dropdown-menu {
   background-color: #2F2449;
 }
@@ -1495,6 +1642,9 @@ footer .social ul li div{
   line-height: 15px; 
   color: #FFFFFF;
   font-family: Inter-SemiBold
+}
+.lang-th .bootstrap-select.select-type .dropdown-item{  
+  font-family: Kanit-Regular !important;  
 }
 .bootstrap-select.select-type .dropdown-item:hover { 
   color: #281F5F; 
@@ -1509,6 +1659,9 @@ footer .social ul li div{
   border-radius: 5px;
   height: 36px;  
 } 
+.lang-th .bootstrap-select .btn{  
+  font-family: Kanit-Regular !important;  
+}
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
   color: #fff;
   background-color: #2F2449;
@@ -1524,6 +1677,9 @@ footer .social ul li div{
   color: #B0AFEC;
   font-family: Inter-Light;
 } 
+.lang-th .datepicker{  
+  font-family: Kanit-Regular !important;  
+}
 .datepicker .today.active.day{
   background-color: #7E68FF !important;
 }
@@ -1554,6 +1710,9 @@ footer .social ul li div{
   font-family: Inter-SemiBold; 
   color: #FFFFFF;
 }
+.lang-th .data-tablex h5{  
+  font-family: Kanit-Regular !important;  
+}
 .tb-transactions{
   margin-top: 45px;
 }
@@ -1566,6 +1725,9 @@ footer .social ul li div{
   vertical-align: middle;
   border-top: 0px solid transparent !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0) !important;
+}
+.lang-th .tb-transactions th{  
+  font-family: Kanit-Regular !important;  
 }
 .tb-transactions th:first-child{
   padding-left: 0px;
@@ -1583,6 +1745,9 @@ footer .social ul li div{
   border-bottom: 0px solid #725E9D !important;
   border-bottom: 1px solid #725E9D !important;
 }
+.lang-th .tb-transactions td{  
+  font-family: Kanit-Regular !important;  
+}
 .tb-transactions td:first-child{
   padding-left: 0px;
 }
@@ -1595,12 +1760,18 @@ footer .social ul li div{
   line-height: 22px; 
   color: #FFD058; 
 }
+.lang-th .account-form h1{  
+  font-family: Kanit-Regular !important;  
+}
 .account-form h5{
   font-family: Inter-Regular; 
   font-size: 14px;
   line-height: 17px; 
   color: #FFFFFF; 
   margin-bottom: 25px;
+}
+.lang-th .account-form h5{  
+  font-family: Kanit-Regular !important;  
 }
 .referal-div > div{
   padding-left: 5px;
@@ -1648,6 +1819,9 @@ footer .social ul li div{
   font-family: Inter-Regular;  
   color: #FFFFFF; 
 }
+.lang-th .box-referal h4{  
+  font-family: Kanit-Regular !important;  
+}
 .form-refer{ 
   position: relative;
   width: 392px; 
@@ -1680,6 +1854,9 @@ footer .social ul li div{
   font-family: Inter-Regular;  
   color: #FFFFFF; 
 }
+.lang-th .form-refer button:before {  
+  font-family: Kanit-Regular !important;  
+}
 .form-refer button:after {
 	content: "";
 	position: absolute;
@@ -1709,6 +1886,9 @@ footer .social ul li div{
   color: #FFFFFF;
   margin-bottom: 20px;
 }
+.lang-th .with-amount h3{  
+  font-family: Kanit-Regular !important;  
+}
 .with-amount h1 {
   font-size: 20px;
   line-height: 24px;
@@ -1716,6 +1896,9 @@ footer .social ul li div{
   font-family: Inter-Bold;
   padding-left: 24px;
   position: relative; 
+}
+.lang-th .with-amount h1 {  
+  font-family: Kanit-Regular !important;  
 }
 .with-amount h1 img {
   position: absolute;
@@ -1747,6 +1930,9 @@ footer .social ul li div{
   transition: .33s all ease-out;
   text-align: left;
   padding-left: 70px;
+}
+.lang-th .btn-bank{  
+  font-family: Kanit-Regular !important;  
 }
 .btn-bank:hover{ 
   color: #FFFFFF;
@@ -1786,6 +1972,9 @@ footer .social ul li div{
   color: #FFFFFF; 
   margin-bottom: 20px;
 } 
+.lang-th .bank-box h3{  
+  font-family: Kanit-Regular !important;  
+}
 .bank-box h3 img{ 
   position: absolute;
   left: 0;
@@ -1799,6 +1988,9 @@ footer .social ul li div{
   color: #FFD058; 
   margin-bottom: 4px;
 }  
+.lang-th .bank-box h4{  
+  font-family: Kanit-Regular !important;  
+}
 .bank-box h5{ 
   font-family: Inter-Regular;
   text-align: left;
@@ -1807,6 +1999,9 @@ footer .social ul li div{
   color: #fff; 
   margin-bottom: 15px;
 }  
+.lang-th .bank-box h5{  
+  font-family: Kanit-Regular !important;  
+}
 .bank-box h5 a{  
   font-size: 12px;
   line-height: 15px; 
@@ -1856,6 +2051,9 @@ footer .social ul li div{
   margin-bottom: 0px;
   border-bottom: 1px solid #655D87;
 }
+.lang-th .bet-slip h3{  
+  font-family: Kanit-Regular !important;  
+}
 .bet-slip h3 img{
   position: absolute;
   left: 15px;
@@ -1880,6 +2078,9 @@ footer .social ul li div{
   color: #FFFFFF;
   margin-bottom: 0px;
 }
+.lang-th .bet-slip .slip h4{  
+  font-family: Kanit-Regular !important;  
+}
 .bet-slip .slip h4 span{
   float: right;
   margin-right: 20px
@@ -1892,6 +2093,9 @@ footer .social ul li div{
   color: #BFB7DE;
   margin-bottom: 0px;
 } 
+.lang-th .bet-slip .slip h5{  
+  font-family: Kanit-Regular !important;  
+}
 .bet-slip .bet{ 
   height: 76px; 
   background: #473B7B;
@@ -1906,6 +2110,9 @@ footer .social ul li div{
   line-height: 16px; 
   color: #FFFFFF;
   margin-bottom: 5px;
+}
+.lang-th .bet-slip .bet h4{  
+  font-family: Kanit-Regular !important;  
 }
 .bet-slip .bet h4 span{
   float: right;
@@ -1925,6 +2132,9 @@ footer .social ul li div{
   color: #FFFFFF;
   font-family: Inter-SemiBold;
 }
+.lang-th .bet-slip .bet input{  
+  font-family: Kanit-Regular !important;  
+}
 .bet-slip .bet input + p{
   margin-top: -25px;
   margin-left: 10px;
@@ -1932,6 +2142,9 @@ footer .social ul li div{
   line-height: 15px;
   color: #FFFFFF;
   font-family: Inter-SemiBold;
+}
+.lang-th .bet-slip .bet input + p{  
+  font-family: Kanit-Regular !important;  
 }
 .bet-slip .bet h6{
   font-family: Inter-SemiBold;
@@ -1941,6 +2154,9 @@ footer .social ul li div{
   position: absolute;
   top: 30px;
   left: 190px;
+}
+.lang-th .bet-slip .bet h6{  
+  font-family: Kanit-Regular !important;  
 }
 .bet-slip .bet h6 span{
   color: #fff; 

@@ -1,5 +1,5 @@
 function lang_th() {
-    $('.lang1').text("ออนไลน์ สล็อต");   
+    $('.lang1').text("สล็อต");   
     $('.lang2').text("ไลฟ์ คาสิโน");   
     $('.lang3').text("เกมโต๊ะ");   
     $('.lang4').text("กีฬา");   
@@ -32,6 +32,15 @@ function lang_th() {
     $('.lang31').attr("placeholder", "ยืนยันรหัสผ่าน");
     $('.lang32').attr("placeholder", "OTP");
     $('.lang33').attr("placeholder", "ตั้งรหัสพินโค้ด 4 หลัก");  
+
+    
+    $('.lang34').text("ทั้งหมด");  
+    $('.lang35').text("สล็อตเกมฮิต");  
+    $('.lang36').text("เกมยิงปลา");  
+    $('.lang37').text("แจ็คพอต");  
+    $('.lang38').text("เกมใหม่");  
+    $('.lang39').text("ฟรีสปิน");  
+    $('.lang40').text("ทดลองเล่น");  
 }
 
 function lang_en() { 
@@ -67,6 +76,13 @@ function lang_en() {
     $('.lang30').attr("placeholder", "write your password or pin code");
     $('.lang31').attr("placeholder", "repeat your password");
     $('.lang32').attr("placeholder", "OTP");
-    $('.lang33').attr("placeholder", "write your pin code"); 
+    $('.lang33').attr("placeholder", "write your pin code");  
+    $('.lang34').text("All");  
+    $('.lang35').text("Slot");  
+    $('.lang36').text("Fishing");  
+    $('.lang37').text("Jackpot");  
+    $('.lang38').text("New Games");  
+    $('.lang39').text("Free spin");  
+    $('.lang40').text("Try Game");  
 
 }
